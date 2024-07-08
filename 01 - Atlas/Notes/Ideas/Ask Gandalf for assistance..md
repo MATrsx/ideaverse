@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[Atlas/Notes/Sources/+ About Sources]]"
+  - "[[+ About Sources]]"
 related: []
 created: 2020-06-01
 ---

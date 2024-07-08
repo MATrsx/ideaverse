@@ -98,7 +98,7 @@ tags:
 > - [[About LYT]]
 > - [[LYT Glossary]]
 > - [[Guiding Values of PKM]]
-> - [[Nick Milo's Custom Callouts]]
+> - [[99 - Meta/Templates/Nick Milo's Custom Callouts]]
 > - [[Guiding assumptions for linked notes]]
 > - [[Ideaverse for Obsidian - Release Notes]]
 

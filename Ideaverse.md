@@ -1,14 +1,28 @@
 ---
-created: 2024-07-03
-modified: 2024-07-03
+Erstellt am: 2024-07-03T21:01
+Geändert am: 2024-07-08T17:20
+tags:
+  - map
 cssclasses:
   - header-box
-  - banner
-  - banner-inline-title
-  - banner-fade
 ---
-![[ideaverse.jpg|banner]]
-> [!banner-icon|yellow glow] :FlFiRrGalaxyAlt:
+
+`[!!|ghb>release:1.2.1]` `[!!|ghb>issues:2]` `[!!|ghb>open issues:0]` `[!!|ghb>closed issues:2]` `[!!|ghb>contributors:3]` `[!!|ghb>license:MIT]` `[!!|ghs>checks:success]` `[!!|ghs>build:success]`
+
+`ALT` + `A` -> Neues Callout erstellen
+ 
+- & [&]
+- ? [?]
+- ! [!]
+- ~ [~]
+- @ [@]
+- $ [$]
+- % [%]
+- " ["]
+- tip [tip]
+- url [url]
+- file [file]
+- pin [pin]
 
 > [!Multi-column] 
 > 
@@ -48,8 +62,8 @@ cssclasses:
 
 - Test 
 - Test 2
-
-
+hfghfghfghhfghfghfghfghfghhgfhfghfghgfhfghgfhgfhfghgf Hallo mein Name ist Milan
+## Multi-Column Icons 
 > [!multi-column|center-fixed-small]
 >
 >> [!blank|center]
@@ -112,6 +126,8 @@ cssclasses:
 >     - [[00 Home|Personal Goal 1]]
 >     - [[00 Home|Personal Goal 2]]
 
+>[!comment-r]
+> Lorem ipsum dolor imun de d d fsdg gbfjsd fsdjhfsd sdfsdfs
 
 
 ## Floating Images
@@ -141,7 +157,7 @@ Hier kann eine Beschreibung des Bildes vorgenommen werden, sodass der Platz opti
 > Text| ([Links](https://en.wikipedia.org/wiki/Frank_Herbert)) |
 
 Diese Infobox soll im Wikipedia-Stil die wichtigsten Informationen am rechten (oder linken) Rand anzeigen.  Dort können Tabellen, Bilder und Admonitions eingefügt werden. Die Syntax ist dieselbe wie die der Callouts. Also `|float-right`, damit die Infobox rechts  und `float-left` damit sie links erscheint. Außerdem können folgende Größen ausgewählt werden:
--  `small`
+- `small`
 - `medium`
 - `large`
 Diese Größen können mit einem `-` angehängt werden. Also zum Beispiel `|float-right-medium`.
