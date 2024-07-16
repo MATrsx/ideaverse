@@ -21,6 +21,18 @@
                   "title": "Home",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Home.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":77.89995538148827}"
+                },
+                {
+                  "title": "Ideaverse",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Ideaverse.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":111.29644752960392}"
+                },
+                {
+                  "title": "Home",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Home.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":9.797086368366285}"
                 },
                 {
@@ -200,12 +212,10 @@
               ]
             },
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "Ideaverse.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "99 - Meta/Preloaded Classes/Colors.md",
+                "staged": false
               }
             }
           }
@@ -369,7 +379,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Ideaverse.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -428,7 +437,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.21750110287900085,
+                  "scale": 0.21750110287900087,
                   "close": true
                 }
               }
@@ -448,9 +457,7 @@
             },
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Ideaverse.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -475,7 +482,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ideaverse.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -501,7 +507,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ideaverse.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -571,10 +576,14 @@
   },
   "active": "8a54ff353e601f9a",
   "lastOpenFiles": [
-    "01 - Atlas/Notes/Ideas/Forcing Function.md",
-    "Ideaverse.md",
-    "01 - Atlas/Notes/Ideas/Cause and Effect.md",
     "Home.md",
+    "Ideaverse.md",
+    "99 - Meta/Preloaded Classes/Colors.md",
+    "99 - Meta/Preloaded Classes/Dailies.md",
+    "99 - Meta/Preloaded Classes/Page Width.md",
+    "99 - Meta/Preloaded Classes/Titles & Header.md",
+    "01 - Atlas/Notes/Ideas/Forcing Function.md",
+    "01 - Atlas/Notes/Ideas/Cause and Effect.md",
     "99 - Meta/Templates/Nick Milo's Custom Callouts.md",
     "99 - Meta/Templates/(TEMPLATE) Admonition.md",
     "99 - Meta/Excalidraw/excalibrain.md",
@@ -599,11 +608,7 @@
     "99 - Meta/Goodnotes/01 - Goodnotes/Studium",
     "99 - Meta/Goodnotes/01 - Goodnotes",
     "01 - Atlas/Utilities/+ About Utilities.md",
-    "+/!stay-on-target.jpg.md",
-    "01 - Atlas/Notes/Ideas/Some Greek Allusions.md",
     "99 - Meta/Excalidraw",
-    "01 - Atlas/Notes/Ideas/Rubik's Cube.md",
-    "01 - Atlas/Notes/Sources/Between the World and Me (book).md",
     "99 - Meta/Files (Images, PDFs, Audio)/wolverine-tethered.jpg",
     "99 - Meta/Files (Images, PDFs, Audio)/whelan-the-wave-1994.jpg",
     "99 - Meta/Files (Images, PDFs, Audio)/whelan-space-station-1978-mod.jpg",
