@@ -62,7 +62,7 @@ cssclasses:
 
 - Test 
 - Test 2
-hfghfghfghhfghfghfghfghfghhgfhfghfghgfhfghgfhgfhfghgf Hallo mein Name ist Milan
+
 ## Multi-Column Icons 
 > [!multi-column|center-fixed-small]
 >
@@ -162,6 +162,10 @@ Diese Infobox soll im Wikipedia-Stil die wichtigsten Informationen am rechten (o
 - `large`
 Diese Größen können mit einem `-` angehängt werden. Also zum Beispiel `|float-right-medium`.
 
+
+## Goodnotes Notizen
+
+![[Ideenboard.pdf]]
 
 ## Zusätzliches
 

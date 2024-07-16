@@ -1,0 +1,90 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "emojiStyle": "twemoji",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "MaDraw",
+      "LiHome",
+      "LiFileSymlink",
+      "BoCalendarDay",
+      "MaFormatColorFill",
+      "FlTextColor",
+      "TaArrowAutofitWidth",
+      "MaFormatHeader1",
+      "TaFileTypeCss",
+      "BoFilePdf",
+      "TaTemplate",
+      "LiAccessibility",
+      "BoKeyboard",
+      "FoMarkdown",
+      "LiMarkdown"
+    ],
+    "recentlyUsedIconsSize": 15,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": true,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "debugMode": false
+  },
+  "Home.md": {
+    "iconName": "LiHome",
+    "iconColor": "#b86cff"
+  },
+  "00 - Allgemein/Markdown/Shortcuts.md": "BoKeyboard",
+  "99 - Meta/Preloaded Classes": {
+    "iconName": "TaFileTypeCss",
+    "iconColor": "#525252"
+  },
+  "99 - Meta/Files (Images, PDFs, Audio)": {
+    "iconName": "LiFileSymlink",
+    "iconColor": "#525252"
+  },
+  "99 - Meta/Templates": {
+    "iconName": "TaTemplate",
+    "iconColor": "#525252"
+  },
+  "03 - Efforts/On": "🔥",
+  "03 - Efforts/Simmering": "〰",
+  "03 - Efforts/Ongoing": "♻",
+  "03 - Efforts/Sleeping": "💤",
+  "99 - Meta/Excalidraw": {
+    "iconName": "MaDraw",
+    "iconColor": "#525252"
+  },
+  "99 - Meta/Goodnotes": {
+    "iconName": "BoFilePdf",
+    "iconColor": "#525252"
+  },
+  "99 - Meta/Preloaded Classes/(PRELOAD) Dailies.md": {
+    "iconName": "BoCalendarDay",
+    "iconColor": "#525252"
+  },
+  "99 - Meta/Preloaded Classes/(PRELOAD) Colors.md": {
+    "iconName": "MaFormatColorFill",
+    "iconColor": "#525252"
+  },
+  "99 - Meta/Preloaded Classes/(PRELOAD) Page Width.md": {
+    "iconName": "TaArrowAutofitWidth",
+    "iconColor": "#525252"
+  },
+  "99 - Meta/Preloaded Classes/(PRELOAD) Titles & Header.md": {
+    "iconName": "MaFormatHeader1",
+    "iconColor": "#525252"
+  }
+}

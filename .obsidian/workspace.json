@@ -1,0 +1,631 @@
+{
+  "main": {
+    "id": "c4f7fdb608baf8e1",
+    "type": "split",
+    "children": [
+      {
+        "id": "c6726c7b8680a4d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8a54ff353e601f9a",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Home",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Home.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":9.797086368366285}"
+                },
+                {
+                  "title": "Nick Milo's Custom Callouts",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"99 - Meta/Templates/Nick Milo's Custom Callouts.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "(TEMPLATE) Admonition",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"99 - Meta/Templates/(TEMPLATE) Admonition.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":97,\"ch\":3},\"to\":{\"line\":97,\"ch\":3}},\"scroll\":71.25}"
+                },
+                {
+                  "title": "excalibrain",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"99 - Meta/Excalidraw/excalibrain.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Ideaverse",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Ideaverse.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":8}"
+                },
+                {
+                  "title": "(PRELOAD) Page Width",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"99 - Meta/Preloaded Classes/(PRELOAD) Page Width.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                },
+                {
+                  "title": "(PRELOAD) Colors",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"99 - Meta/Preloaded Classes/(PRELOAD) Colors.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":0},\"to\":{\"line\":20,\"ch\":0}}}"
+                },
+                {
+                  "title": "(PRELOAD) Dailies",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"99 - Meta/Preloaded Classes/(PRELOAD) Dailies.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}}}"
+                },
+                {
+                  "title": "Template, Properties, Effort (Kit)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"99 - Meta/Templates/Template, Properties, Effort (Kit).md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                },
+                {
+                  "title": "Nick Milo's Custom Callouts",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"99 - Meta/Templates/Nick Milo's Custom Callouts.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Template, Properties, Base",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"99 - Meta/Templates/Template, Properties, Base.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}"
+                },
+                {
+                  "title": "Template, Properties, Effort (Kit)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"99 - Meta/Templates/Template, Properties, Effort (Kit).md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                },
+                {
+                  "title": "Template, Properties, Source (Kit)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"99 - Meta/Templates/Template, Properties, Source (Kit).md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
+                },
+                {
+                  "title": "Template, Properties, Dates Dates Dates (Kit)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"99 - Meta/Templates/Template, Properties, Dates Dates Dates (Kit).md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}}}"
+                },
+                {
+                  "title": "Template, Properties, Base + Tags (Kit)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"99 - Meta/Templates/Template, Properties, Base + Tags (Kit).md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                },
+                {
+                  "title": "Template, Properties, Daily Note (Kit)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"99 - Meta/Templates/Template, Properties, Daily Note (Kit).md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                },
+                {
+                  "title": "Template, Properties, Base",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"99 - Meta/Templates/Template, Properties, Base.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}},\"scroll\":5}"
+                },
+                {
+                  "title": "Nick Milo's Custom Callouts",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Utilities/Templates/Nick Milo's Custom Callouts.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":0},\"to\":{\"line\":19,\"ch\":0}},\"scroll\":12.592329545454545}"
+                },
+                {
+                  "title": "Ideaverse",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Ideaverse.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
+                },
+                {
+                  "title": "Home",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Home.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                },
+                {
+                  "title": "Ideaverse Map",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Ideaverse Map.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":8}"
+                },
+                {
+                  "title": "Ideaverse",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Ideaverse.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":8}"
+                },
+                {
+                  "title": "Ideaverse Map",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Ideaverse Map.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
+                },
+                {
+                  "title": "Home",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Home.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":6}"
+                },
+                {
+                  "title": "Shortcuts",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00 - Allgemein/Markdown/Shortcuts.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":0},\"to\":{\"line\":19,\"ch\":0}},\"scroll\":6}"
+                },
+                {
+                  "title": "Ideaverse",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Ideaverse.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":0},\"to\":{\"line\":25,\"ch\":0}},\"scroll\":62.03356481481482}"
+                },
+                {
+                  "title": "+ About Utilities",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Utilities/+ About Utilities.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                },
+                {
+                  "title": "Ideaverse",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Ideaverse.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
+                },
+                {
+                  "title": "Ideaverse Map",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Ideaverse Map.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
+                },
+                {
+                  "title": "New tab",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"beautitab-react-view\",\"state\":{}}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ideaverse.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "440b3841429709ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "b208c03cadd231ee",
+        "type": "tabs",
+        "dimension": 69.12681912681913,
+        "children": [
+          {
+            "id": "dddbab8b18fd423a",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "77966b04a7f238ed",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "[\"created\"]",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "1ba383f39126cd82",
+        "type": "tabs",
+        "dimension": 30.87318087318087,
+        "children": [
+          {
+            "id": "1dc0cb1cebc39098",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 267.5
+  },
+  "right": {
+    "id": "7a43a6c530e72e44",
+    "type": "split",
+    "children": [
+      {
+        "id": "ea89fdbc5439f479",
+        "type": "tabs",
+        "dimension": 30.0497512437811,
+        "children": [
+          {
+            "id": "4f6e4ddebde66a86",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "962d6727f3fbd2c5",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "53bf6d97e5774261",
+        "type": "tabs",
+        "dimension": 36.616915422885576,
+        "children": [
+          {
+            "id": "4fd5ddab0d74cf4f",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Ideaverse.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 2,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": true,
+                  "showTags": true,
+                  "showAttachments": true,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": false,
+                  "colorGroups": [
+                    {
+                      "query": "tag:#effort",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16753485
+                      }
+                    },
+                    {
+                      "query": "tag:#source",
+                      "color": {
+                        "a": 1,
+                        "rgb": 5402336
+                      }
+                    },
+                    {
+                      "query": "tag:#output",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16735324
+                      }
+                    },
+                    {
+                      "query": "tag:#note",
+                      "color": {
+                        "a": 1,
+                        "rgb": 5431378
+                      }
+                    },
+                    {
+                      "query": "tag:#people",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16743138
+                      }
+                    }
+                  ],
+                  "collapse-display": false,
+                  "showArrow": false,
+                  "textFadeMultiplier": -1,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": false,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.21750110287900085,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "ec3e3f9181d9a4c6",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Ideaverse.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "56111b6032390be0",
+        "type": "tabs",
+        "dimension": 33.333333333333336,
+        "children": [
+          {
+            "id": "d535bd36dbc98e0b",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Ideaverse.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ae0aed29d208c352",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Ideaverse.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "014a0764c502528c",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "1453b119d63990e9",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 315.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "remotely-save:Remotely Save": false,
+      "switcher:Schnellauswahl öffnen": false,
+      "graph:Graphen-Ansicht öffnen": false,
+      "canvas:Neuen Canvas erstellen": false,
+      "daily-notes:Heutige Notiz öffnen": false,
+      "templates:Vorlage einfügen": false,
+      "command-palette:Befehlspalette öffnen": false,
+      "workspaces:Workspace-Layouts verwalten": false,
+      "publish:Änderungen veröffentlichen": false,
+      "obsidian42-brat:BRAT": false,
+      "periodic-notes:Open today's daily note": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "templater-obsidian:Templater": false,
+      "callout-manager:Insert Callout": false,
+      "cmdr:Toggle stacked tabs": false
+    }
+  },
+  "active": "8a54ff353e601f9a",
+  "lastOpenFiles": [
+    "01 - Atlas/Notes/Ideas/Forcing Function.md",
+    "Ideaverse.md",
+    "01 - Atlas/Notes/Ideas/Cause and Effect.md",
+    "Home.md",
+    "99 - Meta/Templates/Nick Milo's Custom Callouts.md",
+    "99 - Meta/Templates/(TEMPLATE) Admonition.md",
+    "99 - Meta/Excalidraw/excalibrain.md",
+    "+/We've already discovered aliens. We call them bees.md",
+    "99 - Meta/Preloaded Classes/(PRELOAD) Page Width.md",
+    "99 - Meta/Preloaded Classes/(PRELOAD) Colors.md",
+    "99 - Meta/Preloaded Classes/(PRELOAD) Dailies.md",
+    "99 - Meta/Templates/Template, Properties, Effort (Kit).md",
+    "99 - Meta/Templates/Template, Properties, Base.md",
+    "99 - Meta/Templates/Template, Properties, Source (Kit).md",
+    "99 - Meta/Templates/Template, Properties, Dates Dates Dates (Kit).md",
+    "99 - Meta/Templates/Template, Properties, Base + Tags (Kit).md",
+    "99 - Meta/Templates/Template, Properties, Daily Note (Kit).md",
+    "01 - Atlas/Utilities/Templates/Nick Milo's Custom Callouts.md",
+    "01 - Atlas/Notes/Ideas/You are what you eat.md",
+    "Ideaverse Map.md",
+    "00 - Allgemein/Markdown/Shortcuts.md",
+    "99 - Meta/Goodnotes/Studium/Ideenboard.pdf",
+    "99 - Meta/Goodnotes/Studium",
+    "99 - Meta/Goodnotes",
+    "99 - Meta/Goodnotes/01 - Goodnotes/Studium/Ideenboard.pdf",
+    "99 - Meta/Goodnotes/01 - Goodnotes/Studium",
+    "99 - Meta/Goodnotes/01 - Goodnotes",
+    "01 - Atlas/Utilities/+ About Utilities.md",
+    "+/!stay-on-target.jpg.md",
+    "01 - Atlas/Notes/Ideas/Some Greek Allusions.md",
+    "99 - Meta/Excalidraw",
+    "01 - Atlas/Notes/Ideas/Rubik's Cube.md",
+    "01 - Atlas/Notes/Sources/Between the World and Me (book).md",
+    "99 - Meta/Files (Images, PDFs, Audio)/wolverine-tethered.jpg",
+    "99 - Meta/Files (Images, PDFs, Audio)/whelan-the-wave-1994.jpg",
+    "99 - Meta/Files (Images, PDFs, Audio)/whelan-space-station-1978-mod.jpg",
+    "99 - Meta/Files (Images, PDFs, Audio)/stay-on-target.jpg",
+    "99 - Meta/Files (Images, PDFs, Audio)/sort-by-file-name-a-to-z.png",
+    "99 - Meta/Files (Images, PDFs, Audio)/feynman-triangulation-1.png",
+    "99 - Meta/Files (Images, PDFs, Audio)/CleanShot 2023-07-30 at 21.37.43.png",
+    "99 - Meta/Files (Images, PDFs, Audio)",
+    "99 - Meta/Preloaded Classes",
+    "99 - Meta/Templates",
+    "Atlas/Utilities/Images/ideaverse.jpg",
+    "Atlas/Utilities/Images/_c411a4c0-20c7-420c-a857-15fffec1e1b4.jpg",
+    "Unbenannt.canvas",
+    "Atlas/Utilities/Images/lyt-kit-example-cooling-pad-.png",
+    "Atlas/Utilities/Canvases/2023-03-20 - Review, Brain Dump, Imagine, Prioritize.canvas",
+    "Atlas/Utilities/Canvases/LYT W10 Calendar Canvas.canvas",
+    "Atlas/Utilities/Canvases/LYT Ship Dashboard.canvas",
+    "Atlas/Utilities/Canvases/LYT W11 Calendar Canvas.canvas",
+    "Atlas/Utilities/Canvases/Obsidian Canvas MOC.canvas",
+    "Atlas/Utilities/Canvases/Ship of the Sensemaker.canvas",
+    "Atlas/Utilities/Canvases/LYT 2023 Rules.canvas",
+    "Atlas/Utilities/Canvases/LYT Book Framing.canvas",
+    "Atlas/Utilities/Canvases/LYT Nick Weekly Schedule.canvas"
+  ]
+}
