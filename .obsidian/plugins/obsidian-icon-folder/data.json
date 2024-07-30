@@ -79,12 +79,12 @@
     "iconName": "MaFormatColorFill",
     "iconColor": "#525252"
   },
-  "99 - Meta/Preloaded Classes/(PRELOAD) Page Width.md": {
-    "iconName": "TaArrowAutofitWidth",
-    "iconColor": "#525252"
-  },
   "99 - Meta/Preloaded Classes/(PRELOAD) Titles & Header.md": {
     "iconName": "MaFormatHeader1",
+    "iconColor": "#525252"
+  },
+  "99 - Meta/Preloaded Classes/(PRELOAD) Page Width.md": {
+    "iconName": "TaArrowAutofitWidth",
     "iconColor": "#525252"
   }
 }

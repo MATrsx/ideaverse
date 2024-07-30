@@ -56,10 +56,10 @@ div[data-property-key="cssclasses"] > .metadata-property-value > .multi-select-c
     padding: 0.3em;
     width: 14px; 
     height: 14px;
-    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="rgb(132,76,184)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-wand-2"><path d="m21.64 3.64-1.28-1.28a1.21 1.21 0 0 0-1.72 0L2.36 18.64a1.21 1.21 0 0 0 0 1.72l1.28 1.28a1.2 1.2 0 0 0 1.72 0L21.64 5.36a1.2 1.2 0 0 0 0-1.72Z"></path><path d="m14 7 3 3"></path><path d="M5 6v4"></path><path d="M19 14v4"></path><path d="M10 2v2"></path><path d="M7 8H3"></path><path d="M21 16h-4"></path><path d="M11 3H9"></path></svg>') no-repeat center center;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="rgb(212, 91, 239)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-wand-2"><path d="m21.64 3.64-1.28-1.28a1.21 1.21 0 0 0-1.72 0L2.36 18.64a1.21 1.21 0 0 0 0 1.72l1.28 1.28a1.2 1.2 0 0 0 1.72 0L21.64 5.36a1.2 1.2 0 0 0 0-1.72Z"></path><path d="m14 7 3 3"></path><path d="M5 6v4"></path><path d="M19 14v4"></path><path d="M10 2v2"></path><path d="M7 8H3"></path><path d="M21 16h-4"></path><path d="M11 3H9"></path></svg>') no-repeat center center;
 }
 div[data-property-key="cssclasses"] > .metadata-property-value > .multi-select-container > .multi-select-pill {
-    color: var(--interactive-accent-tint);
+    color: #d45bef;
     background-color: var(--interactive-accent-base);
     display: inline-flex;
     margin: 0;
@@ -76,10 +76,10 @@ div[data-property-key="tags"] > .metadata-property-value > .multi-select-contain
     padding: 0.3em;
     width: 14px; 
     height: 14px;
-    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="rgb(169,61,124)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-tag"><path d="M12 2H2v10l9.29 9.29c.94.94 2.48.94 3.42 0l6.58-6.58c.94-.94.94-2.48 0-3.42L12 2Z"></path><path d="M7 7h.01"></path></svg>') no-repeat center center;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="rgb(255,92,187)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-tag"><path d="M12 2H2v10l9.29 9.29c.94.94 2.48.94 3.42 0l6.58-6.58c.94-.94.94-2.48 0-3.42L12 2Z"></path><path d="M7 7h.01"></path></svg>') no-repeat center center;
 }
 div[data-property-key="tags"] > .metadata-property-value > .multi-select-container > .multi-select-pill {
-    color: var(--color-pink-tint);
+    color: hsl(325deg 100% 68.14%);
     background-color: var(--color-pink-base);
     display: inline-flex;
     margin: 0;

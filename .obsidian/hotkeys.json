@@ -733,5 +733,7 @@
       "key": "A"
     }
   ],
-  "obsidian-excalidraw-plugin:save": []
+  "obsidian-excalidraw-plugin:save": [],
+  "obsidian-text-format:heading-lower": [],
+  "obsidian-text-format:heading-upper": []
 }

@@ -126,10 +126,6 @@ cssclasses:
 >     - [[00 Home|Personal Goal 1]]
 >     - [[00 Home|Personal Goal 2]]
 
->[!comment-r]
-> Lorem ipsum dolor imun de d d fsdg gbfjsd fsdjhfsd sdfsdfs
-
-
 ## Floating Images
 ---
  ![[lyt-mode-graphic-1.jpg|float-right|350]]
