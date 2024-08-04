@@ -10,7 +10,10 @@ cssclasses:
 `[!!|ghb>release:1.2.1]` `[!!|ghb>issues:2]` `[!!|ghb>open issues:0]` `[!!|ghb>closed issues:2]` `[!!|ghb>contributors:3]` `[!!|ghb>license:MIT]` `[!!|ghs>checks:success]` `[!!|ghs>build:success]`
 
 `ALT` + `A` -> Neues Callout erstellen
- 
+
+`CTRL` + `SHIFT` + `I` -> Entwicklerkonsole öffnen
+
+
 - & [&]
 - ? [?]
 - ! [!]
@@ -163,6 +166,12 @@ Diese Größen können mit einem `-` angehängt werden. Also zum Beispiel `|floa
 
 ![[Ideenboard.pdf]]
 
+Durch `PDF++` können Rückverweise und Markierungen im PDF Dokument gesetzt werden, die bestimmte Teile ==hervorheben==.
+
+> [!PDF|red] [[Ideenboard.pdf#page=2&selection=4,0,4,9&color=red|:BoFileEarmarkPdf: Ideenboard, (Seite: 2)]]
+> > Heading 1
+
 ## Zusätzliches
 
 Hier werden zusätzliche Dateien und Funktionen gelistet:
+

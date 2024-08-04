@@ -735,5 +735,13 @@
   ],
   "obsidian-excalidraw-plugin:save": [],
   "obsidian-text-format:heading-lower": [],
-  "obsidian-text-format:heading-upper": []
+  "obsidian-text-format:heading-upper": [],
+  "templater-obsidian:99 - Meta/Templates/(TEMPLATE) Admonition.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "A"
+    }
+  ]
 }

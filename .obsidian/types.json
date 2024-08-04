@@ -42,6 +42,8 @@
     "excalidraw-open-md": "checkbox",
     "modified": "text",
     "Erstellt am": "datetime",
-    "Geändert am": "datetime"
+    "Geändert am": "datetime",
+    "genre": "multitext",
+    "type": "multitext"
   }
 }

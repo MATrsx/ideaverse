@@ -2,7 +2,7 @@
 obsidianUIMode: preview
 icon: LiHome
 iconColor: b86cff
-cssclasses: []
+cssclasses:
 ---
 
 > [!Activity]+ # Beiträge

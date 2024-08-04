@@ -42,5 +42,6 @@
   "templater-obsidian",
   "beautitab",
   "obsidian-linter",
-  "remotely-save"
+  "remotely-save",
+  "pdf-plus"
 ]

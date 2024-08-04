@@ -50,7 +50,7 @@ For more ideas, check out the tags pane. Find "source" and twirl it down. The so
 >  type as Type,
 >  file.link as Source
 >  
-> FROM "Atlas/Notes/Sources" and -#x/readme 
+> FROM "01 - Atlas/Notes/Sources" and -#x/readme 
 > 
 > SORT year asc
 > ```

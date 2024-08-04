@@ -6,21 +6,21 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "MaDraw",
-      "LiHome",
-      "LiFileSymlink",
-      "BoCalendarDay",
-      "MaFormatColorFill",
-      "FlTextColor",
-      "TaArrowAutofitWidth",
-      "MaFormatHeader1",
-      "TaFileTypeCss",
-      "BoFilePdf",
-      "TaTemplate",
-      "LiAccessibility",
-      "BoKeyboard",
-      "FoMarkdown",
-      "LiMarkdown"
+      "FlMusic",
+      "FlFiSrPizzaSlice",
+      "FlAnimeTv",
+      "BoBook",
+      "LiGamepad2",
+      "FlGames",
+      "FlBooks",
+      "FlGame",
+      "FlAnime",
+      "FlAvatar",
+      "🇯🇵",
+      "FlStreamingTvApp",
+      "MlWatchLoop",
+      "FoRankingStar",
+      "MaDraw"
     ],
     "recentlyUsedIconsSize": 15,
     "rules": [],
@@ -86,5 +86,14 @@
   "99 - Meta/Preloaded Classes/(PRELOAD) Page Width.md": {
     "iconName": "TaArrowAutofitWidth",
     "iconColor": "#525252"
-  }
+  },
+  "99 - Meta/Preloaded Classes/Ranks and Types.md": {
+    "iconName": "FoRankingStar",
+    "iconColor": "#525252"
+  },
+  "01 - Atlas/Notes/Sources/Elden Ring.md": "FlGames",
+  "01 - Atlas/Notes/Sources/1984 (book).md": "FlBooks",
+  "01 - Atlas/Notes/Sources/That Time I Got Reincarnated as a Slime.md": "FlAvatar",
+  "01 - Atlas/Notes/Projects/Cooking/Knoblauchpizza.md": "FlFiSrPizzaSlice",
+  "01 - Atlas/Notes/Sources/Sinnerman (song).md": "FlMusic"
 }

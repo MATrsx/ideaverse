@@ -158,5 +158,6 @@
     "Atlas/Views/Daily Sparks",
     "Compass/Journal/"
   ],
-  "showInlineTitle": true
+  "showInlineTitle": true,
+  "showRibbon": true
 }

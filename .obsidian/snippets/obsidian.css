@@ -20,7 +20,10 @@ body {
     --graph-fill-color-dt: var(--color-purple-text) !important;
 }
 
-/* Prism Theme Changes*/
+/*================================================================\
+|Customize Prism Theme Settings                                    |
+\================================================================*/
+
 body {
     --code-comment: var(--color-orange-text); /* Changed from grey to orange */
 }
@@ -29,10 +32,17 @@ body {
 .workspace-tab-header-inner-close-button::after {
     display: none;
 }
+
+/* Change Explorer Text Size */
 .nav-file-title, .nav-folder-title {
     font-size: 15px;
 }
 
+/* Change File Icon Size on Hover */
+.tree-item .nav-file > .tree-item-self:hover svg {
+    width: 30px;
+    height: 30px;
+}
 
 .center-images img {
     display: block !important;
@@ -50,6 +60,21 @@ div[data-callout="multi-column"].callout > .callout-content blockquote {
 div[data-callout="blank-container"] .callout {
     margin-top: 0 !important;
 }
+
+/*================================================================\
+|Customize Metadata Styling                                        |
+\================================================================*/
+
+.multi-select-pill-remove-button {
+    cursor: pointer;
+    color: #fff;
+    padding-right: 0.3em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    margin-inline-end: 0;
+}
+
+/* cssclasses */
 
 div[data-property-key="cssclasses"] > .metadata-property-value > .multi-select-container > .multi-select-pill::before {
     content: '';
@@ -70,6 +95,8 @@ div[data-property-key="cssclasses"] > .metadata-property-value > .multi-select-c
     border: var(--inline-badge-border);
     cursor: default;
 }
+
+/* tags */
 
 div[data-property-key="tags"] > .metadata-property-value > .multi-select-container > .multi-select-pill::before {
     content: '';
@@ -93,8 +120,81 @@ div[data-property-key="tags"] > .metadata-property-value > .multi-select-contain
 div[data-property-key="tags"] > .metadata-property-value > .multi-select-container > .multi-select-pill > .multi-select-pill-content {
     margin-left: 0;
 }
-.multi-select-pill-remove-button {
-    color: #fff;
+
+/* genre */
+
+div[data-property-key="genre"] > .metadata-property-value > .multi-select-container > .multi-select-pill::before {
+    content: '';
+    padding: 0.3em;
+    width: 14px; 
+    height: 14px;
+    background: url('data:image/svg+xml;utf8,<svg data-v-56bd7dfc="" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="rgb(91, 197, 239)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-drama"><path d="M10 11h.01"></path><path d="M14 6h.01"></path><path d="M18 6h.01"></path><path d="M6.5 13.1h.01"></path><path d="M22 5c0 9-4 12-6 12s-6-3-6-12c0-2 2-3 6-3s6 1 6 3"></path><path d="M17.4 9.9c-.8.8-2 .8-2.8 0"></path><path d="M10.1 7.1C9 7.2 7.7 7.7 6 8.6c-3.5 2-4.7 3.9-3.7 5.6 4.5 7.8 9.5 8.4 11.2 7.4.9-.5 1.9-2.1 1.9-4.7"></path><path d="M9.1 16.5c.3-1.1 1.4-1.7 2.4-1.4"></path></svg>') no-repeat center center;
+}
+div[data-property-key="genre"] > .metadata-property-value > .multi-select-container > .multi-select-pill {
+    color: #5bc5ef;
+    background-color: hsl(201.46deg 48% 21%);
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    border-radius: var(--inline-badge-border-radius);
+    font-weight: 500;
+    border: var(--inline-badge-border);
+    cursor: default;
+}
+
+/* type */
+
+div[data-property-key="type"] > .metadata-property-value > .multi-select-container > .multi-select-pill::before {
+    content: '';
+    padding: 0.3em;
+    width: 14px; 
+    height: 14px;
+    background: url('data:image/svg+xml;utf8,<svg data-v-56bd7dfc="" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="rgb(91, 239, 101)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-dna"><path d="m10 16 1.5 1.5"></path><path d="m14 8-1.5-1.5"></path><path d="M15 2c-1.798 1.998-2.518 3.995-2.807 5.993"></path><path d="m16.5 10.5 1 1"></path><path d="m17 6-2.891-2.891"></path><path d="M2 15c6.667-6 13.333 0 20-6"></path><path d="m20 9 .891.891"></path><path d="M3.109 14.109 4 15"></path><path d="m6.5 12.5 1 1"></path><path d="m7 18 2.891 2.891"></path><path d="M9 22c1.798-1.998 2.518-3.995 2.807-5.993"></path></svg>') no-repeat center center;
+}
+div[data-property-key="type"] > .metadata-property-value > .multi-select-container > .multi-select-pill {
+    color: #5bef65;
+    background-color: hsl(123.92deg 58.5% 22.95%);
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    border-radius: var(--inline-badge-border-radius);
+    font-weight: 500;
+    border: var(--inline-badge-border);
+    cursor: default;
+}
+
+div[data-property-key="type"] .multi-select-pill-content {
+    cursor: pointer;
+}
+
+/* rank */
+
+div[data-property-key="rank"] > .metadata-property-value > .metadata-input-longtext::before {
+    content: '';
+    padding: 0.3em;
+    width: 14px; 
+    height: 14px;
+    background: url('data:image/svg+xml;utf8,<svg data-v-56bd7dfc="" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="rgb(239, 229, 91)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trophy"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path></svg>') no-repeat center center;
+}
+div[data-property-key="rank"] > .metadata-property-value > .metadata-input-longtext {
+    color: #efe55b;
+    background-color: hsl(60.23deg 58.5% 22.95%);
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    margin-right: 92%;
+    vertical-align: middle;
+    border-radius: var(--inline-badge-border-radius);
+    font-weight: 500;
+    border: var(--inline-badge-border);
+    cursor: default;
+    font-size: 16px;
+    font-weight: bold;
+}
+div[data-property-key="rank"] > .metadata-property-value {
+    padding: var(--size-4-1) var(--size-4-2);
 }
 
 /* Tag
@@ -106,15 +206,17 @@ div[data-property-key="tags"] > .metadata-property-value > .multi-select-contain
 /* Wand
 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-wand-2"><path d="m21.64 3.64-1.28-1.28a1.21 1.21 0 0 0-1.72 0L2.36 18.64a1.21 1.21 0 0 0 0 1.72l1.28 1.28a1.2 1.2 0 0 0 1.72 0L21.64 5.36a1.2 1.2 0 0 0 0-1.72Z"></path><path d="m14 7 3 3"></path><path d="M5 6v4"></path><path d="M19 14v4"></path><path d="M10 2v2"></path><path d="M7 8H3"></path><path d="M21 16h-4"></path><path d="M11 3H9"></path></svg>
 */
-
-.multi-select-pill-remove-button {
-    margin-inline-end: 0;
-}
-
+/* Cooking Pot
+<svg data-v-56bd7dfc="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cooking-pot"><path d="M2 12h20"></path><path d="M20 12v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-8"></path><path d="m4 8 16-4"></path><path d="m8.86 6.78-.45-1.81a2 2 0 0 1 1.45-2.43l1.94-.48a2 2 0 0 1 2.43 1.46l.45 1.8"></path></svg> 
+*/
 
 
 
-/* CALLOUTS - Custom CSS Classes*/
+
+/*================================================================\
+|Customize Callout Settings and Styling                            |
+\================================================================*/
+
 .callout[data-callout-metadata~="green"] {
     --callout-color: 173, 216, 109 !important;
 }
@@ -138,7 +240,15 @@ div[data-property-key="tags"] > .metadata-property-value > .multi-select-contain
     border-color: var(--interactive-accent-tint) !important;
 }
 
-/* GENERAL - Custom CSS Classes*/
+body:not(.pt-disable-callout-styling) .callout[data-callout="pdf"]:not(.cg-note-toolbar-callout) .callout-content {
+    border-color: rgb(var(--callout-color)) !important;
+}
+
+
+/*================================================================\
+|General Tweaks and Settings                                       |
+\================================================================*/
+
 .center {
     display: block;
     margin: 0 auto;
@@ -165,7 +275,10 @@ div[data-property-key="tags"] > .metadata-property-value > .multi-select-contain
     max-width: var(--file-line-width);
 }
 
-/* COLORS - Custom Inline Classes*/
+/*================================================================\
+|Customize and Add Color Options                                   |
+\================================================================*/
+
 .white {
     color: #fff !important;
 }
@@ -201,9 +314,9 @@ div[data-property-key="tags"] > .metadata-property-value > .multi-select-contain
 }
 
 
-/*----------------------------------------------------------------
-Customize Banner Settings
-----------------------------------------------------------------*/
+/*================================================================\
+|Customize Banner Settings                                         |
+\================================================================*/
 div[data-callout="banner-icon"] div.callout-title {
     border: none !important; 
 }

@@ -41,7 +41,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-pink-text);
 }
 
-.prism-theme .callout[data-callout="activity"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="activity"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-pink-tint);
 }
@@ -63,7 +63,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-blue-text);
 }
 
-.prism-theme .callout[data-callout="anchor"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="anchor"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-blue-tint);
 }
@@ -86,7 +86,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-red-text);
 }
 
-.prism-theme .callout[data-callout="award"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="award"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-red-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-red-tint);
 }
@@ -107,7 +107,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-green-text);
 }
 
-.prism-theme .callout[data-callout="bike"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="bike"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-green-tint);
 }
@@ -128,7 +128,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-cyan-text);
 }
 
-.prism-theme .callout[data-callout="blocks"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="blocks"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-cyan-tint);
 }
@@ -151,7 +151,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-orange-text);
 }
 
-.prism-theme .callout[data-callout="book"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="book"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-orange-tint);
 }
@@ -174,7 +174,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-grey-text);
 }
 
-.prism-theme .callout[data-callout="box"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="box"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-grey-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-grey-tint);
 }
@@ -196,7 +196,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-orange-text);
 }
 
-.prism-theme .callout[data-callout="boxes"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="boxes"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-orange-tint);
 }
@@ -221,7 +221,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-mint-text);
 }
 
-.prism-theme .callout[data-callout="cable-car"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="cable-car"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-mint-tint);
 }
@@ -247,7 +247,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-purple-text);
 }
 
-.prism-theme .callout[data-callout="calendar"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="calendar"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-purple-tint);
 }
@@ -270,7 +270,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-mint-text);
 }
 
-.prism-theme .callout[data-callout="camera"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="camera"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-mint-tint);
 }
@@ -292,7 +292,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-mint-text);
 }
 
-.prism-theme .callout[data-callout="castle"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="castle"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-mint-tint);
 }
@@ -313,7 +313,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-orange-text);
 }
 
-.prism-theme .callout[data-callout="castleo"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="castleo"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-orange-tint);
 }
@@ -335,7 +335,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-yellow-text);
 }
 
-.prism-theme .callout[data-callout="combine"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="combine"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-yellow-tint);
 }
@@ -358,7 +358,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-mint-text);
 }
 
-.prism-theme .callout[data-callout="combo"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="combo"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-mint-tint);
 }
@@ -381,7 +381,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-grey-text);
 }
 
-.prism-theme .callout[data-callout="command"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="command"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-grey-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-grey-tint);
 }
@@ -403,7 +403,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-orange-text);
 }
 
-.prism-theme .callout[data-callout="compass"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="compass"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-orange-tint);
 }
@@ -425,7 +425,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-red-text);
 }
 
-.prism-theme .callout[data-callout="cone"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="cone"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-red-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-red-tint);
 }
@@ -447,7 +447,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-yellow-text);
 }
 
-.prism-theme .callout[data-callout="connect"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="connect"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-yellow-tint);
 }
@@ -469,7 +469,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-green-text);
 }
 
-.prism-theme .callout[data-callout="contact"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="contact"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-green-tint);
 }
@@ -491,7 +491,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-grey-text);
 }
 
-.prism-theme .callout[data-callout="cross"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="cross"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-grey-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-grey-tint);
 }
@@ -514,7 +514,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-red-text);
 }
 
-.prism-theme .callout[data-callout="fingerprint"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="fingerprint"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-red-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-red-tint);
 }
@@ -538,7 +538,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-purple-text);
 }
 
-.prism-theme .callout[data-callout="globe"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="globe"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-purple-tint);
 }
@@ -561,7 +561,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-grey-text);
 }
 
-.prism-theme .callout[data-callout="hexagon"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="hexagon"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-grey-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-grey-tint);
 }
@@ -584,7 +584,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-purple-text);
 }
 
-.prism-theme .callout[data-callout="industry"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="industry"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-purple-tint);
 }
@@ -606,7 +606,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-pink-text);
 }
 
-.prism-theme .callout[data-callout="joystick"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="joystick"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-pink-tint);
 }
@@ -628,7 +628,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-orange-text);
 }
 
-.prism-theme .callout[data-callout="keaton"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="keaton"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-orange-tint);
 }
@@ -650,7 +650,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-green-text);
 }
 
-.prism-theme .callout[data-callout="leaf"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="leaf"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-green-tint);
 }
@@ -672,7 +672,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-grey-text);
 }
 
-.prism-theme .callout[data-callout="link"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="link"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-grey-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-grey-tint);
 }
@@ -695,7 +695,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-blue-text);
 }
 
-.prism-theme .callout[data-callout="locate"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="locate"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-blue-tint);
 }
@@ -719,7 +719,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-cyan-text);
 }
 
-.prism-theme .callout[data-callout="map"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="map"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-cyan-tint);
 }
@@ -741,7 +741,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-pink-text);
 }
 
-.prism-theme .callout[data-callout="milestone"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="milestone"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-pink-tint);
 }
@@ -763,7 +763,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-purple-text);
 }
 
-.prism-theme .callout[data-callout="network"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="network"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-purple-tint);
 }
@@ -786,7 +786,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-grey-text);
 }
 
-.prism-theme .callout[data-callout="notes"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="notes"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-grey-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-grey-tint);
 }
@@ -808,7 +808,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-purple-text);
 }
 
-.prism-theme .callout[data-callout="orbit"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="orbit"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-purple-tint);
 }
@@ -830,7 +830,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-blue-text);
 }
 
-.prism-theme .callout[data-callout="parking"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="parking"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-blue-tint);
 }
@@ -853,7 +853,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-cyan-text);
 }
 
-.prism-theme .callout[data-callout="planet"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="planet"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-cyan-tint);
 }
@@ -876,7 +876,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-mint-text);
 }
 
-.prism-theme .callout[data-callout="play"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="play"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-mint-tint);
 }
@@ -898,7 +898,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-yellow-text);
 }
 
-.prism-theme .callout[data-callout="puzzle"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="puzzle"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-yellow-tint);
 }
@@ -920,7 +920,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-cyan-text);
 }
 
-.prism-theme .callout[data-callout="radar"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="radar"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-cyan-tint);
 }
@@ -942,7 +942,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-pink-text);
 }
 
-.prism-theme .callout[data-callout="rainbow"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="rainbow"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-pink-tint);
 }
@@ -964,7 +964,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-mint-text);
 }
 
-.prism-theme .callout[data-callout="recycle"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="recycle"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-mint-tint);
 }
@@ -987,7 +987,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-cyan-text);
 }
 
-.prism-theme .callout[data-callout="rocket"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="rocket"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-cyan-tint);
 }
@@ -1009,7 +1009,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-blue-text);
 }
 
-.prism-theme .callout[data-callout="sailboat"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="sailboat"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-blue-tint);
 }
@@ -1031,7 +1031,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-grey-text);
 }
 
-.prism-theme .callout[data-callout="script"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="script"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-grey-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-grey-tint);
 }
@@ -1054,7 +1054,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-orange-text);
 }
 
-.prism-theme .callout[data-callout="shell"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="shell"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-orange-tint);
 }
@@ -1076,7 +1076,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-blue-text);
 }
 
-.prism-theme .callout[data-callout="ship"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="ship"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-blue-tint);
 }
@@ -1098,7 +1098,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-blue-text);
 }
 
-.prism-theme .callout[data-callout="shipwheel"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="shipwheel"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-blue-tint);
 }
@@ -1120,7 +1120,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-blue-text);
 }
 
-.prism-theme .callout[data-callout="snowflake"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="snowflake"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-blue-tint);
 }
@@ -1142,7 +1142,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-yellow-text);
 }
 
-.prism-theme .callout[data-callout="sparkles"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="sparkles"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-yellow-tint);
 }
@@ -1164,7 +1164,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-green-text);
 }
 
-.prism-theme .callout[data-callout="sprout"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="sprout"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-green-tint);
 }
@@ -1187,7 +1187,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-yellow-text);
 }
 
-.prism-theme .callout[data-callout="sun"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="sun"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-yellow-tint);
 }
@@ -1211,7 +1211,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-green-text);
 }
 
-.prism-theme .callout[data-callout="train"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="train"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-green-tint);
 }
@@ -1233,7 +1233,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-green-text);
 }
 
-.prism-theme .callout[data-callout="training"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="training"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-green-tint);
 }
@@ -1255,7 +1255,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-orange-text);
 }
 
-.prism-theme .callout[data-callout="tram-front"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="tram-front"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-orange-tint);
 }
@@ -1277,7 +1277,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-green-text);
 }
 
-.prism-theme .callout[data-callout="trees"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="trees"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-green-tint);
 }
@@ -1299,7 +1299,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-pink-text);
 }
 
-.prism-theme .callout[data-callout="tower"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="tower"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-pink-tint);
 }
@@ -1322,7 +1322,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-cyan-text);
 }
 
-.prism-theme .callout[data-callout="user"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="user"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-cyan-tint);
 }
@@ -1344,7 +1344,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-purple-text);
 }
 
-.prism-theme .callout[data-callout="venetian"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="venetian"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-purple-tint);
 }
@@ -1366,7 +1366,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-purple-text);
 }
 
-.prism-theme .callout[data-callout="video"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="video"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-purple-tint);
 }
@@ -1388,7 +1388,7 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-red-text);
 }
 
-.prism-theme .callout[data-callout="watch"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="watch"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-red-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-red-tint);
 }
@@ -1411,10 +1411,75 @@ RED: Award, Cone, Fingerprint, Watch
     color: var(--color-grey-text);
 }
 
-.prism-theme .callout[data-callout="shortcut"] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout[data-callout="shortcut"]:not(.cg-note-toolbar-callout) .callout-content {
     background-color: hsla(var(--color-grey-base-hsl), var(--callout-background-alpha));
     border-color: var(--color-grey-tint);
 }
 
+/* image */
+
+.callout[data-callout="image"] {
+    --callout-color: 17, 255, 0;
+    --callout-icon: image;
+}
+
+.prism-theme .callout[data-callout="image"] > .callout-title {
+    color: hsl(124deg 57.72% 47.02%);
+    background-color: var(--color-green-base);
+    border-color: hsl(124deg 57.72% 47.02%);
+}
+
+.prism-theme .callout[data-callout="image"] > .callout-title .callout-icon .svg-icon {
+    color: hsl(124deg 57.72% 47.02%);
+}
+
+body:not(.pt-disable-callout-styling) .callout[data-callout="image"]:not(.cg-note-toolbar-callout) .callout-content {
+    background-color: hsla(var(--color-grey-base-hsl), var(--callout-background-alpha));
+    border-color: #32BD3C;
+}
+
+/* context */
+
+.callout[data-callout="context"] {
+    --callout-color: 134, 142, 150;
+    --callout-icon: scan-eye;
+}
+
+.prism-theme .callout[data-callout="context"] > .callout-title {
+    color: var(--color-mint-text);
+    background-color: var(--color-mint-base);
+    border-color: var(--color-mint-tint);
+}
+
+.prism-theme .callout[data-callout="context"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-mint-text);
+}
+
+body:not(.pt-disable-callout-styling) .callout[data-callout="context"]:not(.cg-note-toolbar-callout) .callout-content {
+    background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-mint-tint);
+}
+
+/* thoughts */
+
+.callout[data-callout="thoughts"] {
+    --callout-color: 134, 142, 150;
+    --callout-icon: brain;
+}
+
+.prism-theme .callout[data-callout="thoughts"] > .callout-title {
+    color: var(--color-grey-text);
+    background-color: var(--color-grey-base);
+    border-color: var(--color-grey-tint);
+}
+
+.prism-theme .callout[data-callout="thoughts"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-grey-text);
+}
+
+body:not(.pt-disable-callout-styling) .callout[data-callout="thoughts"]:not(.cg-note-toolbar-callout) .callout-content {
+    background-color: hsla(var(--color-grey-base-hsl), var(--callout-background-alpha));
+    border-color: var(--color-grey-tint);
+}
 
 

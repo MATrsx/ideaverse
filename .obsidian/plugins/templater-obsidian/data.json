@@ -22,7 +22,7 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "Atlas/Utilities/Templates/(TEMPLATE) Admonition.md"
+    "99 - Meta/Templates/(TEMPLATE) Admonition.md"
   ],
   "startup_templates": [
     ""
