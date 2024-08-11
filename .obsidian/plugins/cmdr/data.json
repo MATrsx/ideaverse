@@ -1,22 +1,16 @@
 {
-  "confirmDeletion": true,
-  "showAddCommand": true,
+  "confirmDeletion": false,
+  "showAddCommand": false,
   "debug": false,
-  "editorMenu": [
-    {
-      "id": "workspace:toggle-stacked-tabs",
-      "icon": "lucide-layers",
-      "name": "Toggle stacked tabs",
-      "mode": "any"
-    }
-  ],
+  "editorMenu": [],
   "fileMenu": [],
   "leftRibbon": [
     {
-      "id": "workspace:toggle-stacked-tabs",
-      "icon": "lucide-layers",
-      "name": "Toggle stacked tabs",
-      "mode": "any"
+      "id": "obsibrain-plugin:open-daily",
+      "icon": "calendar",
+      "name": "Obsibrain: 🗓️ Open Daily",
+      "mode": "any",
+      "color": "#bf4dd5"
     }
   ],
   "rightRibbon": [],
@@ -28,35 +22,19 @@
   "hide": {
     "statusbar": [],
     "leftRibbon": [
-      "Obsidian42 - Text Transporter",
-      "File Info Panel",
+      "Toggle Theme",
+      "Templater",
       "Omnisearch",
-      "Create new book note",
-      "Toggle stacked tabs",
-      "Show a random prompt",
-      "Open Symbols for the active editor",
-      "Show Slide Preview",
-      "Open Markdown Table Editor",
-      "Open LexTest",
-      "Open ChatGPT--",
-      "Publish changes",
-      "Dangerzone Writing",
-      "Toggle Privacy Glasses",
-      "Hide all",
-      "Reveal non-private",
-      "Reveal all",
-      "New Excalidraw drawing",
-      "3D Graph",
-      "Open today's daily note",
-      "Publish changes...",
-      "Open today's daily note",
-      "Create new drawing",
-      "Find Journey",
-      "Create new canvas",
-      "Open projects",
-      "Open in Headings Mode",
       "Manage workspace layouts",
-      "BRAT"
+      "Toggle Focus Mode (Shift + Click to show active pane only)",
+      "Open Symbols for the active editor",
+      "Open in Headings Mode",
+      "Start/stop recording",
+      "Open command palette",
+      "Open graph view",
+      "Create new canvas",
+      "Open quick switcher",
+      "Insert template"
     ]
   },
   "spacing": 8,

@@ -1,0 +1,1 @@
+module.exports = app.utils.templater.daily.dailyZoomOutRibbon

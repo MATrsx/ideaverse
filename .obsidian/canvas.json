@@ -1,5 +1,6 @@
 {
   "snapToObjects": true,
   "snapToGrid": true,
-  "zoomBreakpoint": 1.25
+  "newFileLocation": "folder",
+  "newFileFolderPath": "99 - Meta/Canvas"
 }

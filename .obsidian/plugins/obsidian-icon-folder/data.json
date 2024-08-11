@@ -1,28 +1,18 @@
 {
   "settings": {
     "migrated": 6,
-    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "iconPacksPath": ".obsidian/icons",
     "fontSize": 16,
-    "emojiStyle": "twemoji",
+    "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "FlMusic",
-      "FlFiSrPizzaSlice",
-      "FlAnimeTv",
-      "BoBook",
-      "LiGamepad2",
-      "FlGames",
-      "FlBooks",
-      "FlGame",
-      "FlAnime",
-      "FlAvatar",
-      "🇯🇵",
-      "FlStreamingTvApp",
-      "MlWatchLoop",
-      "FoRankingStar",
-      "MaDraw"
+      "BoTable",
+      "💰",
+      "⛵",
+      "🇫🇮",
+      "🍲"
     ],
-    "recentlyUsedIconsSize": 15,
+    "recentlyUsedIconsSize": 5,
     "rules": [],
     "extraMargin": {
       "top": 0,
@@ -30,70 +20,61 @@
       "bottom": 0,
       "left": 0
     },
-    "iconInTabsEnabled": false,
-    "iconInTitleEnabled": false,
-    "iconInTitlePosition": "above",
-    "iconInFrontmatterEnabled": true,
+    "iconInTabsEnabled": true,
+    "iconInTitleEnabled": true,
+    "iconsBackgroundCheckEnabled": false,
+    "iconInFrontmatterEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconIdentifier": ":",
+    "iconsInLinksEnabled": true,
     "iconInFrontmatterFieldName": "icon",
     "iconColorInFrontmatterFieldName": "iconColor",
-    "iconsBackgroundCheckEnabled": false,
-    "iconsInNotesEnabled": true,
-    "iconsInLinksEnabled": true,
-    "iconIdentifier": ":",
-    "debugMode": false
+    "debugMode": false,
+    "iconInTitlePosition": "above",
+    "lucideIconPackType": "native"
   },
-  "Home.md": {
-    "iconName": "LiHome",
-    "iconColor": "#b86cff"
-  },
-  "00 - Allgemein/Markdown/Shortcuts.md": "BoKeyboard",
-  "99 - Meta/Preloaded Classes": {
-    "iconName": "TaFileTypeCss",
-    "iconColor": "#525252"
-  },
-  "99 - Meta/Files (Images, PDFs, Audio)": {
-    "iconName": "LiFileSymlink",
-    "iconColor": "#525252"
-  },
-  "99 - Meta/Templates": {
-    "iconName": "TaTemplate",
-    "iconColor": "#525252"
-  },
-  "03 - Efforts/On": "🔥",
-  "03 - Efforts/Simmering": "〰",
-  "03 - Efforts/Ongoing": "♻",
-  "03 - Efforts/Sleeping": "💤",
-  "99 - Meta/Excalidraw": {
-    "iconName": "MaDraw",
-    "iconColor": "#525252"
-  },
-  "99 - Meta/Goodnotes": {
-    "iconName": "BoFilePdf",
-    "iconColor": "#525252"
-  },
-  "99 - Meta/Preloaded Classes/(PRELOAD) Dailies.md": {
-    "iconName": "BoCalendarDay",
-    "iconColor": "#525252"
-  },
-  "99 - Meta/Preloaded Classes/(PRELOAD) Colors.md": {
-    "iconName": "MaFormatColorFill",
-    "iconColor": "#525252"
-  },
-  "99 - Meta/Preloaded Classes/(PRELOAD) Titles & Header.md": {
-    "iconName": "MaFormatHeader1",
-    "iconColor": "#525252"
-  },
-  "99 - Meta/Preloaded Classes/(PRELOAD) Page Width.md": {
-    "iconName": "TaArrowAutofitWidth",
-    "iconColor": "#525252"
-  },
-  "99 - Meta/Preloaded Classes/Ranks and Types.md": {
-    "iconName": "FoRankingStar",
-    "iconColor": "#525252"
-  },
-  "01 - Atlas/Notes/Sources/Elden Ring.md": "FlGames",
-  "01 - Atlas/Notes/Sources/1984 (book).md": "FlBooks",
-  "01 - Atlas/Notes/Sources/That Time I Got Reincarnated as a Slime.md": "FlAvatar",
-  "01 - Atlas/Notes/Projects/Cooking/Knoblauchpizza.md": "FlFiSrPizzaSlice",
-  "01 - Atlas/Notes/Sources/Sinnerman (song).md": "FlMusic"
+  "2-areas/Business.md": "💼",
+  "2-areas/Creativity.md": "👨‍🎨",
+  "2-areas/Finances.md": "🤑",
+  "2-areas/Growth.md": "🚀",
+  "2-areas/Home.md": "🏠",
+  "2-areas/Productivity.md": "🗄",
+  "2-areas/Relations.md": "💞",
+  "3-resources/Dance.md": "💃",
+  "3-resources/Design.md": "🎨",
+  "3-resources/Engineering.md": "💻",
+  "3-resources/Drawing.md": "✏",
+  "3-resources/Games.md": "🎮",
+  "3-resources/Ideas.md": "💡",
+  "3-resources/English.md": "🇺🇸",
+  "3-resources/Reading.md": "📖",
+  "3-resources/Shows.md": "📺",
+  "3-resources/Tattoos.md": "🌺",
+  "3-resources/Innovation.md": "⚙",
+  "3-resources/Writing.md": "✍",
+  "2-areas/Sport.md": "🏋️‍♂️",
+  "1-projects/Obsibrain Development and Testing.md": "🧠",
+  "1-projects/Androswitch Tests.md": "🛟",
+  "1-projects/Constel Education.md": "🧑‍🏫",
+  "1-projects/Engage on social media.md": "📅",
+  "1-projects/Create relationships with other creators.md": "🔀",
+  "1-projects/AI generative tools monitoring.md": "👽",
+  "1-projects/Increase my reps and kgs.md": "🏋️‍♂️",
+  "1-projects/Increase my calories intake.md": "🍙",
+  "1-projects/Organize more activities with my friends.md": "👨‍👩‍👦‍👦",
+  "1-projects/Obsibrain Marketing.md": "🧠",
+  "4-archives/Queers in Gaza.md": "🏳️‍🌈",
+  "4-archives/Atelier Kim.md": "🏢",
+  "4-archives/CCEJR Design.md": "🌳",
+  "4-archives/Complete comfyUI tutorials.md": "🖼",
+  "4-archives/Osha Development.md": "💼",
+  "4-archives/Slingshot Development.md": "🪐",
+  "1-projects/Listen to more podcasts.md": "🎧",
+  "1-projects/Prepare trip to Finland.md": "🗺",
+  "1-projects/Set aside a budget for travel.md": "💰",
+  "1-projects/Business.md": "💼",
+  "02 - Plan/0-goals/Travel to Finland in 2024.md": "🇫🇮",
+  "00 - Para/01 - Projects/Travel Budgeting.md": "💰",
+  "00 - Para/02 - Areas/Travel.md": "⛵",
+  "00 - Para/03 - Ressources/Cooking.md": "🍳"
 }

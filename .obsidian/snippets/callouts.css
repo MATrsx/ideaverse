@@ -1,0 +1,42 @@
+
+
+/* image */
+
+.callout[data-callout="image"] {
+    --callout-color: 17, 255, 0;
+    --callout-icon: image;
+}
+
+.prism-theme .callout[data-callout="image"] > .callout-title {
+    color: hsl(124deg 57.72% 47.02%);
+    background-color: var(--color-green-base);
+    border-color: hsl(124deg 57.72% 47.02%);
+}
+
+.prism-theme .callout[data-callout="image"] > .callout-title .callout-icon .svg-icon {
+    color: hsl(124deg 57.72% 47.02%);
+}
+
+/* context */
+
+.callout[data-callout="context"] {
+    --callout-color: 134, 142, 150;
+    --callout-icon: scan-eye;
+}
+
+.prism-theme .callout[data-callout="context"] > .callout-title {
+    color: var(--color-mint-text);
+    background-color: var(--color-mint-base);
+    border-color: var(--color-mint-tint);
+}
+
+.prism-theme .callout[data-callout="context"] > .callout-title .callout-icon .svg-icon {
+    color: var(--color-mint-text);
+}
+
+/* thoughts */
+
+.callout[data-callout="thoughts"] {
+    --callout-color: 134, 142, 150;
+    --callout-icon: brain;
+}

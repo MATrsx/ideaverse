@@ -1,0 +1,1 @@
+module.exports = app.utils.templater.quarterly.quarterlyDateInfo

@@ -1,0 +1,254 @@
+{
+  "main": {
+    "id": "b9329bd673c43b84",
+    "type": "split",
+    "children": [
+      {
+        "id": "43d0241776e8d737",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bd6d441e900ae68a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "cbe343fbbd0c7bf7",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "68a2a7cb7399d3ec",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "537704dd6b32f6cc",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "25e85661b8ca9998",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "39ef59c60cd78751",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0-plan/1-daily/2024-02-11.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "befebf9968451b9f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "f0b49bdaf3e6f721",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bc0cd40469978aee",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "57970605b003dbbb",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "7705287f2b7f31b4",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "3bf7b9985993bdd2",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "820e0cf5cf7bd9f7",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      },
+      {
+        "id": "083e45d2d6c83cb5",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "3b30253e7b848c2b",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "91b0392e392ee6ea",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "0-plan/1-daily/2024-02-11.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "4ccd70eb4d17b9de",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "0-plan/1-daily/2024-02-11.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "c829e148324042ff",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "0-plan/1-daily/2024-02-11.md"
+          }
+        }
+      },
+      {
+        "id": "fc0bcf54620cb389",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "cmdr:Obsibrain: 🗓️ Open Daily": false,
+      "workspaces:Manage workspace layouts": false,
+      "omnisearch:Omnisearch": false,
+      "graph:Open graph view": false,
+      "darlal-switcher-plus:Open in Headings Mode": true,
+      "darlal-switcher-plus:Open Symbols for the active editor": true,
+      "templater-obsidian:Templater": true,
+      "switcher:Open quick switcher": true,
+      "canvas:Create new canvas": true,
+      "command-palette:Open command palette": true,
+      "audio-recorder:Start/stop recording": true
+    }
+  },
+  "active": "39ef59c60cd78751",
+  "lastOpenFiles": [
+    "2-areas/Relations.md",
+    "0-plan/1-daily/2024-02-11.md",
+    "5-notes/Groceries.md",
+    "5-notes/26 jan.md",
+    "0-plan/1-daily/2024-01-27.md",
+    "5-notes/questions for the design validation.md",
+    "5-notes/Wishlist.md",
+    "5-notes/Content Creator.md",
+    "assets/IMG_7296.png",
+    "5-notes/Museum AI app.md",
+    "5-notes/how thomas frank sell its template (marketing strategy).md",
+    "1-projects/Obsibrain Development and Testing.md",
+    "assets/IMG_7188.jpeg",
+    "5-notes/AI auto captions.md",
+    "5-notes/AI Workshop Wolfox.md",
+    "3-resources/Memory.md",
+    "5-notes/Secret Santa Jennifer.md",
+    "1-projects/Atelier Kim.md",
+    "1-projects/Log all my reps and max kgs during 2 weeks.md",
+    "3-resources/design/Design inspirations.md",
+    "3-resources/cooking/Groceries.md",
+    "Memory.md",
+    "5-notes/Culture OKRs' Meeting.md",
+    "5-notes/How DOAC A/B test YouTube thumbnail.md",
+    "3-resources/Someday-Maybe.md",
+    "5-notes/Create Udemy creative course.md",
+    "5-notes/Gifts for Solène.md",
+    "5-notes/How DOAC AB test YouTube thumbnail.md",
+    "5-notes/How DOAC A",
+    "Dashboard.canvas",
+    "Ω-assets/CleanShot 2023-10-06 at 14.22.12.jpg",
+    "Ω-assets/IMG_6924.heic",
+    "Ω-assets/mo-gawdat.jpg",
+    "Ω-assets/IMG_8084.jpg",
+    "Ω-assets/IMG_8085.jpg",
+    "Ω-assets/CleanShot 2023-08-17 at 08.50.34@2x.jpg",
+    "Ω-assets/CleanShot 2023-07-04 at 13.42.17@2x.jpg",
+    "Ω-assets/ai-prompting-leaking.jpg",
+    "Ω-assets/ai-prompting-least-to-most.png"
+  ]
+}

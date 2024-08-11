@@ -1,0 +1,35 @@
+{
+  "ProgressProperties": {
+    "enabled": false,
+    "properties": []
+  },
+  "IgnoredProperties": {
+    "enabled": false,
+    "properties": []
+  },
+  "AutoProperties": {
+    "enabled": true,
+    "properties": [
+      {
+        "name": "status",
+        "choices": [
+          "todo",
+          "doing",
+          "done",
+          "on hold"
+        ]
+      }
+    ]
+  },
+  "EditMode": {
+    "mode": "Some Multi",
+    "properties": []
+  },
+  "KanbanHelper": {
+    "enabled": false,
+    "boards": []
+  },
+  "UIElements": {
+    "enabled": true
+  }
+}

@@ -1,64 +1,17 @@
-
-/* Change Graph Color*/
 body {
-    --graph-controls-width: 240px !important;
-    --graph-text: var(--text-normal) !important;
-    --graph-line: var(--color-base-35, var(--background-modifier-border-focus)) !important;
-    --graph-node: var(--text-muted) !important;
-    --graph-node-unresolved: var(--text-faint) !important;
-    --graph-node-focused: var(--text-accent) !important;
-    --graph-node-tag: var(--color-green) !important;
-    --graph-node-attachment: var(--color-yellow) !important;
-    --graph-fill-focused-color-dt: var(--interactive-accent-tint) !important;
-    --graph-tag-color-dt: var(--color-blue-tint) !important;
-    --graph-attachment-color-dt: var(--color-yellow-tint) !important;
-    --graph-unresolved-color-dt: var(--color-red-tint) !important;
-    --graph-highlight-color-dt: var(--interactive-accent-tint) !important;
-    --graph-highlight-line-color-dt: var(--interactive-accent-tint) !important;
-
-    --graph-line-color-dt: var(--background-primary-alt) !important;
-    --graph-fill-color-dt: var(--color-purple-text) !important;
+    --icon-size: 18px;
+    --callout-icon-info: lucide-info;
+    --nav-item-white-space: pre !important;
 }
 
-/*================================================================\
-|Customize Prism Theme Settings                                    |
-\================================================================*/
-
-body {
-    --code-comment: var(--color-orange-text); /* Changed from grey to orange */
-}
-.workspace-split .workspace-tab-header-spacer,
-.workspace .mod-root .workspace-tab-header-inner::after,
-.workspace-tab-header-inner-close-button::after {
-    display: none;
+svg.svg-icon {
+    height: var(--icon-size) !important;
+    width: var(--icon-size) !important;
+    stroke-width: var(--icon-stroke);
 }
 
-/* Change Explorer Text Size */
-.nav-file-title, .nav-folder-title {
-    font-size: 15px;
-}
-
-/* Change File Icon Size on Hover */
-.tree-item .nav-file > .tree-item-self:hover svg {
-    width: 30px;
-    height: 30px;
-}
-
-.center-images img {
-    display: block !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-}
-
-div[data-callout="multi-column"].callout > .callout-content blockquote {
-    background-color: transparent;
-    border-inline-start: none;
-    margin: 5px !important;
-    padding: 4px !important;
-}
-
-div[data-callout="blank-container"] .callout {
-    margin-top: 0 !important;
+.markdown-source-view.mod-cm6.is-readable-line-width .cm-line {
+    max-width: none;
 }
 
 /*================================================================\
@@ -81,19 +34,24 @@ div[data-property-key="cssclasses"] > .metadata-property-value > .multi-select-c
     padding: 0.3em;
     width: 14px; 
     height: 14px;
-    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="rgb(212, 91, 239)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-wand-2"><path d="m21.64 3.64-1.28-1.28a1.21 1.21 0 0 0-1.72 0L2.36 18.64a1.21 1.21 0 0 0 0 1.72l1.28 1.28a1.2 1.2 0 0 0 1.72 0L21.64 5.36a1.2 1.2 0 0 0 0-1.72Z"></path><path d="m14 7 3 3"></path><path d="M5 6v4"></path><path d="M19 14v4"></path><path d="M10 2v2"></path><path d="M7 8H3"></path><path d="M21 16h-4"></path><path d="M11 3H9"></path></svg>') no-repeat center center;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="rgb(218, 154, 27)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-wand-2"><path d="m21.64 3.64-1.28-1.28a1.21 1.21 0 0 0-1.72 0L2.36 18.64a1.21 1.21 0 0 0 0 1.72l1.28 1.28a1.2 1.2 0 0 0 1.72 0L21.64 5.36a1.2 1.2 0 0 0 0-1.72Z"></path><path d="m14 7 3 3"></path><path d="M5 6v4"></path><path d="M19 14v4"></path><path d="M10 2v2"></path><path d="M7 8H3"></path><path d="M21 16h-4"></path><path d="M11 3H9"></path></svg>') no-repeat center center;
 }
 div[data-property-key="cssclasses"] > .metadata-property-value > .multi-select-container > .multi-select-pill {
-    color: #d45bef;
-    background-color: var(--interactive-accent-base);
+    color: var(--alternating-color-1);
+    background-color: hsl(49, 48%, 21%);
     display: inline-flex;
     margin: 0;
     padding: 0;
     vertical-align: middle;
-    border-radius: var(--inline-badge-border-radius);
+    border-radius: 4px;
     font-weight: 500;
-    border: var(--inline-badge-border);
+    border: 1px solid transparent;
     cursor: default;
+}
+div[data-property-key="cssclasses"] > .metadata-property-value > .multi-select-container > .multi-select-pill .multi-select-pill-content {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-inline-start: 2px;
 }
 
 /* tags */
@@ -196,240 +154,3 @@ div[data-property-key="rank"] > .metadata-property-value > .metadata-input-longt
 div[data-property-key="rank"] > .metadata-property-value {
     padding: var(--size-4-1) var(--size-4-2);
 }
-
-/* Tag
-<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-tag"><path d="M12 2H2v10l9.29 9.29c.94.94 2.48.94 3.42 0l6.58-6.58c.94-.94.94-2.48 0-3.42L12 2Z"></path><path d="M7 7h.01"></path></svg>
-*/
-/* Paint Bucket
-<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-paint-bucket"><path d="m19 11-8-8-8.6 8.6a2 2 0 0 0 0 2.8l5.2 5.2c.8.8 2 .8 2.8 0L19 11Z"></path><path d="m5 2 5 5"></path><path d="M2 13h15"></path><path d="M22 20a2 2 0 1 1-4 0c0-1.6 1.7-2.4 2-4 .3 1.6 2 2.4 2 4Z"></path></svg>
-*/
-/* Wand
-<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-wand-2"><path d="m21.64 3.64-1.28-1.28a1.21 1.21 0 0 0-1.72 0L2.36 18.64a1.21 1.21 0 0 0 0 1.72l1.28 1.28a1.2 1.2 0 0 0 1.72 0L21.64 5.36a1.2 1.2 0 0 0 0-1.72Z"></path><path d="m14 7 3 3"></path><path d="M5 6v4"></path><path d="M19 14v4"></path><path d="M10 2v2"></path><path d="M7 8H3"></path><path d="M21 16h-4"></path><path d="M11 3H9"></path></svg>
-*/
-/* Cooking Pot
-<svg data-v-56bd7dfc="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cooking-pot"><path d="M2 12h20"></path><path d="M20 12v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-8"></path><path d="m4 8 16-4"></path><path d="m8.86 6.78-.45-1.81a2 2 0 0 1 1.45-2.43l1.94-.48a2 2 0 0 1 2.43 1.46l.45 1.8"></path></svg> 
-*/
-
-
-
-
-/*================================================================\
-|Customize Callout Settings and Styling                            |
-\================================================================*/
-
-.callout[data-callout-metadata~="green"] {
-    --callout-color: 173, 216, 109 !important;
-}
-.callout[data-callout-metadata~="purple"] {
-    --callout-color: 184, 108, 255 !important;
-}
-.callout[data-callout-metadata~="yellow"] {
-    --callout-color: 255, 255, 0 !important;
-}
-
-.callout[data-callout="no-icon"] {
-    padding-left: 0;
-    padding-right: 0;
-}
-.callout[data-callout="no-icon"] .callout-icon {
-    display: none;
-}
-.callout[data-callout="no-icon"] .callout-title {
-    padding-left: 2px !important;
-    background-color: var(--interactive-accent-base);
-    border-color: var(--interactive-accent-tint) !important;
-}
-
-body:not(.pt-disable-callout-styling) .callout[data-callout="pdf"]:not(.cg-note-toolbar-callout) .callout-content {
-    border-color: rgb(var(--callout-color)) !important;
-}
-
-
-/*================================================================\
-|General Tweaks and Settings                                       |
-\================================================================*/
-
-.center {
-    display: block;
-    margin: 0 auto;
-}
-.hr-margin-0 hr {
-    margin: 0 !important;
-}
-.header-box h1:not(* .callout *):not(* .has-list-bullet *), 
-.header-box h2:not(* .callout *):not(* .has-list-bullet *),
-.header-box h3:not(* .callout *):not(* .has-list-bullet *),
-.header-box h4:not(* .callout *):not(* .has-list-bullet *),
-.header-box .HyperMD-header-1:not(* .callout *),
-.header-box .HyperMD-header-2:not(* .callout *),
-.header-box .HyperMD-header-3:not(* .callout *),
-.header-box .HyperMD-header-4:not(* .callout *){
-    color: var(--nav-item-color-active);
-    border: 2px solid;
-    background-color: var(--interactive-accent-base);
-    border-color: var(--interactive-accent-tint);
-    border-radius: var(--radius-m);
-    padding-top: 0;
-    padding-left: .5rem;
-    margin-bottom: .3rem;
-    max-width: var(--file-line-width);
-}
-
-/*================================================================\
-|Customize and Add Color Options                                   |
-\================================================================*/
-
-.white {
-    color: #fff !important;
-}
-.red {
-    color: #EE0F0F !important;
-}
-.green {
-    color: #4BB543 !important;
-}
-.pink {
-    color: #D20062 !important;
-}
-.purple {
-    color: #912BBC !important;
-}
-.orange {
-    color: #FF9900 !important;
-}
-.yellow {
-    color: #fff700 !important;
-}
-.blue {
-    color: #279EFF !important;
-}
-.light-blue {
-    color: #40F8FF !important;
-}
-.dark-blue {
-    color: #0C356A !important;
-}
-.grey {
-    color: #868686 !important;
-}
-
-
-/*================================================================\
-|Customize Banner Settings                                         |
-\================================================================*/
-div[data-callout="banner-icon"] div.callout-title {
-    border: none !important; 
-}
-
-div[data-callout="banner-icon"] div.callout-title div.callout-title-inner > span > svg, 
-div[data-callout="banner-icon"] div.callout-title div.callout-title-inner > span > img {
-    height: var(--banner-icon-size);
-    width: var(--banner-icon-size);
-}
-
-div[data-callout="banner-icon"][data-callout-metadata~="glow"] div.callout-title div.callout-title-inner > span > svg > path {
-    filter: url(#neon);
-}
-
-.text-big {
-    font-size: 5rem;
-}
-.neon-red {
-    font-family: "Doctor Glitch";
-    animation: neon-red 1.5s ease-in-out infinite alternate;
-}
-.neon-blue {
-    font-family: "Doctor Glitch";
-    animation: neon-blue 1.5s ease-in-out infinite alternate;
-}
-.neon-yellow {
-    font-family: "Doctor Glitch";
-    animation: neon-yellow 1.5s ease-in-out infinite alternate;
-}
-.neon-green {
-    font-family: "Doctor Glitch";
-    animation: neon-green 1.5s ease-in-out infinite alternate;
-}
-.neon-orange {
-    font-family: "Doctor Glitch";
-    animation: neon-orange 1.5s ease-in-out infinite alternate;
-}
-.neon-pink {
-    font-family: "Doctor Glitch";
-    animation: neon-pink 1.5s ease-in-out infinite alternate;
-}
-.neon-purple {
-    font-family: "Doctor Glitch";
-    animation: neon-purple 1.5s ease-in-out infinite alternate;
-}
-
-@keyframes neon-red {
-  from {
-    text-shadow: 0 0 10px #000000, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #ff1177,
-      0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
-  }
-  to {
-    text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000, 0 0 20px #ff1177,
-      0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
-  }
-}
-@keyframes neon-blue {
-  from {
-    text-shadow: 0 0 10px #000000, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #228dff,
-      0 0 70px #228dff, 0 0 80px #228dff, 0 0 100px #228dff, 0 0 150px #228dff;
-  }
-  to {
-    text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000, 0 0 20px #228dff,
-      0 0 35px #228dff, 0 0 40px #228dff, 0 0 50px #228dff, 0 0 75px #228dff;
-  }
-}
-@keyframes neon-yellow {
-  from {
-    text-shadow: 0 0 10px #000000, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #ffdd1b,
-      0 0 70px #ffdd1b, 0 0 80px #ffdd1b, 0 0 100px #ffdd1b, 0 0 150px #ffdd1b;
-  }
-  to {
-    text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000, 0 0 20px #ffdd1b,
-      0 0 35px #ffdd1b, 0 0 40px #ffdd1b, 0 0 50px #ffdd1b, 0 0 75px #ffdd1b;
-  }
-}
-@keyframes neon-green {
-  from {
-    text-shadow: 0 0 10px #000000, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #b6ff00,
-      0 0 70px #b6ff00, 0 0 80px #b6ff00, 0 0 100px #b6ff00, 0 0 150px #b6ff00;
-  }
-  to {
-    text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000, 0 0 20px #b6ff00,
-      0 0 35px #b6ff00, 0 0 40px #b6ff00, 0 0 50px #b6ff00, 0 0 75px #b6ff00;
-  }
-}
-@keyframes neon-orange {
-  from {
-    text-shadow: 0 0 10px #000000, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #ff9900,
-      0 0 70px #ff9900, 0 0 80px #ff9900, 0 0 100px #ff9900, 0 0 150px #ff9900;
-  }
-  to {
-    text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000, 0 0 20px #ff9900,
-      0 0 35px #ff9900, 0 0 40px #ff9900, 0 0 50px #ff9900, 0 0 75px #ff9900;
-  }
-}
-@keyframes neon-pink {
-  from {
-    text-shadow: 0 0 10px #000000, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #ff00de,
-      0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
-  }
-  to {
-    text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000, 0 0 20px #ff00de,
-      0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
-  }
-}
-@keyframes neon-purple {
-    from {
-      text-shadow: 0 0 10px #000000, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #ff00de,
-        0 0 70px #d000ff, 0 0 80px #d000ff, 0 0 100px #d000ff, 0 0 150px #d000ff;
-    }
-    to {
-      text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000, 0 0 20px #ff00de,
-        0 0 35px #d000ff, 0 0 40px #d000ff, 0 0 50px #d000ff, 0 0 75px #d000ff;
-    }
-  }

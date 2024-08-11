@@ -1,639 +1,98 @@
 {
   "main": {
-    "id": "c4f7fdb608baf8e1",
+    "id": "b9329bd673c43b84",
     "type": "split",
     "children": [
       {
-        "id": "d09c7d0bee229d82",
+        "id": "2e86503c5b2f31a0",
         "type": "tabs",
         "children": [
           {
-            "id": "cb8687662d373eb3",
+            "id": "ca4b9e0ba1da355c",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Anime",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Maps/Anime.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":4}"
-                },
-                {
-                  "title": "Book",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Maps/Book.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
-                },
-                {
-                  "title": "Anime",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Maps/Anime.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
-                },
-                {
-                  "title": "Book",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Maps/Book.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
-                },
-                {
-                  "title": "Song",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Maps/Song.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
-                },
-                {
-                  "title": "Game",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Maps/Game.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":6}"
-                },
-                {
-                  "title": "Add",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Maps/Add.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}},\"scroll\":11}"
-                },
-                {
-                  "title": "That Time I Got Reincarnated as a Slime",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Notes/Sources/That Time I Got Reincarnated as a Slime.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}},\"scroll\":11}"
-                },
-                {
-                  "title": "The Almagest",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Notes/Sources/The Almagest.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":10}"
-                },
-                {
-                  "title": "Book",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Maps/Book.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":6}"
-                },
-                {
-                  "title": "1984 (book)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Notes/Sources/1984 (book).md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
-                },
-                {
-                  "title": "Book",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Maps/Book.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":6}"
-                },
-                {
-                  "title": "Ideaverse Map",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Ideaverse Map.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":40.97682604869463}"
-                },
-                {
-                  "title": "Library",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Maps/Library.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":60,\"ch\":62},\"to\":{\"line\":60,\"ch\":62}},\"scroll\":46.756510416666664}"
-                },
-                {
-                  "title": "Home",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Home.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":9.797086368366285}"
-                },
-                {
-                  "title": "Ideaverse",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Ideaverse.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}},\"scroll\":8}"
-                },
-                {
-                  "title": "New tab",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"beautitab-react-view\",\"state\":{}}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Atlas/Maps/Sources Map.md",
+                "file": "03 - Notes/Test Markdown Components.md",
                 "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "83a7ed6d41c1c331",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Kochen",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Maps/Kochen.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
-                },
-                {
-                  "title": " Videos (OE) (Example)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03 - Efforts/Ongoing/ Videos (OE) (Example).md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":0},\"to\":{\"line\":24,\"ch\":0}}}"
-                },
-                {
-                  "title": "My Finance (OE) (Example)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/My Finance (OE) (Example).md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": " My Taxes 2023 (OE) (Example)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03 - Efforts/Ongoing/ My Taxes 2023 (OE) (Example).md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":8}"
-                },
-                {
-                  "title": " Videos (OE) (Example)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03 - Efforts/Ongoing/ Videos (OE) (Example).md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":8}"
-                },
-                {
-                  "title": "That Time I Got Reincarnated as a Slime",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Notes/Sources/That Time I Got Reincarnated as a Slime.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}},\"scroll\":13}"
-                },
-                {
-                  "title": "Home",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Home.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":6}"
-                },
-                {
-                  "title": "Nina Simone (kit)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Notes/People/Nina Simone (kit).md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":9}"
-                },
-                {
-                  "title": "Sinnerman (song)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Notes/Sources/Sinnerman (song).md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}},\"scroll\":11}"
-                },
-                {
-                  "title": "The Almagest",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Notes/Sources/The Almagest.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":10}"
-                },
-                {
-                  "title": "That Time I Got Reincarnated as a Slime",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Notes/Sources/That Time I Got Reincarnated as a Slime.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}}}"
-                },
-                {
-                  "title": "1984 (book)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Notes/Sources/1984 (book).md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
-                },
-                {
-                  "title": "The Almagest",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Notes/Sources/The Almagest.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
-                },
-                {
-                  "title": "That Time I Got Reincarnated as a Slime",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Notes/Sources/That Time I Got Reincarnated as a Slime.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}}}"
-                },
-                {
-                  "title": "Elden Ring",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Notes/Sources/Elden Ring.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
-                },
-                {
-                  "title": "That Time I Got Reincarnated as a Slime",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Notes/Sources/That Time I Got Reincarnated as a Slime.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}},\"scroll\":13}"
-                },
-                {
-                  "title": "Elden Ring",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Notes/Sources/Elden Ring.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
-                },
-                {
-                  "title": "1984 (book)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Notes/Sources/1984 (book).md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
-                },
-                {
-                  "title": "That Time I Got Reincarnated as a Slime",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Notes/Sources/That Time I Got Reincarnated as a Slime.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}}}"
-                },
-                {
-                  "title": "Elden Ring",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Notes/Sources/Elden Ring.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
-                },
-                {
-                  "title": "That Time I Got Reincarnated as a Slime",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Notes/Sources/That Time I Got Reincarnated as a Slime.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}}}"
-                },
-                {
-                  "title": "Anime",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Maps/Anime.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":114},\"to\":{\"line\":7,\"ch\":114}},\"scroll\":6}"
-                },
-                {
-                  "title": "Ranks and Types",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"99 - Meta/Preloaded Classes/Ranks and Types.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}}}"
-                },
-                {
-                  "title": "The Almagest",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Notes/Sources/The Almagest.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
-                },
-                {
-                  "title": "That Time I Got Reincarnated as a Slime",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Notes/Sources/That Time I Got Reincarnated as a Slime.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}}}"
-                },
-                {
-                  "title": "Ranks and Types",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"99 - Meta/Preloaded Classes/Ranks and Types.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}}}"
-                },
-                {
-                  "title": "That Time I Got Reincarnated as a Slime",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Notes/Sources/That Time I Got Reincarnated as a Slime.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}}}"
-                },
-                {
-                  "title": "Ranks and Types",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"99 - Meta/Preloaded Classes/Ranks and Types.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
-                },
-                {
-                  "title": "Book",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Maps/Book.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
-                },
-                {
-                  "title": "1984 (book)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Notes/Sources/1984 (book).md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
-                },
-                {
-                  "title": "Ranks and Types",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"99 - Meta/Preloaded Classes/Ranks and Types.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
-                },
-                {
-                  "title": "That Time I Got Reincarnated as a Slime",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Notes/Sources/That Time I Got Reincarnated as a Slime.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}}}"
-                },
-                {
-                  "title": "(PRELOAD) Page Width",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"99 - Meta/Preloaded Classes/(PRELOAD) Page Width.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
-                },
-                {
-                  "title": "(PRELOAD) Dailies",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"99 - Meta/Preloaded Classes/(PRELOAD) Dailies.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}}}"
-                },
-                {
-                  "title": "(PRELOAD) Colors",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"99 - Meta/Preloaded Classes/(PRELOAD) Colors.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":0},\"to\":{\"line\":20,\"ch\":0}}}"
-                },
-                {
-                  "title": "(PRELOAD) Titles & Header",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"99 - Meta/Preloaded Classes/(PRELOAD) Titles & Header.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
-                },
-                {
-                  "title": "That Time I Got Reincarnated as a Slime",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Notes/Sources/That Time I Got Reincarnated as a Slime.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}}}"
-                },
-                {
-                  "title": "Elden Ring",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Notes/Sources/Elden Ring.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
-                },
-                {
-                  "title": "Book",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Maps/Book.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
-                },
-                {
-                  "title": "That Time I Got Reincarnated as a Slime",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Notes/Sources/That Time I Got Reincarnated as a Slime.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}}}"
-                },
-                {
-                  "title": "Movie",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Maps/Movie.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":73},\"to\":{\"line\":8,\"ch\":0}}}"
-                },
-                {
-                  "title": "That Time I Got Reincarnated as a Slime",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Notes/Sources/That Time I Got Reincarnated as a Slime.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Atlas/Notes/Projects/Cooking/Knoblauchpizza.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4c9ccaebad027042",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Anime",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Maps/Anime.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
-                },
-                {
-                  "title": "Ideaverse",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Ideaverse.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
-                },
-                {
-                  "title": "Home",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Home.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":25.25098855359001}"
-                },
-                {
-                  "title": "Ideaverse",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Ideaverse.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":8}"
-                },
-                {
-                  "title": "Add",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01 - Atlas/Maps/Add.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":5},\"to\":{\"line\":18,\"ch\":0}},\"scroll\":11}"
-                },
-                {
-                  "title": "Ideaverse",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Ideaverse.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":9.636911942098914}"
-                },
-                {
-                  "title": "Ideaverse Map",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Ideaverse Map.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
-                },
-                {
-                  "title": "Home",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Home.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":49,\"ch\":0},\"to\":{\"line\":49,\"ch\":0}},\"scroll\":6}"
-                },
-                {
-                  "title": "Ideaverse",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Ideaverse.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":21.201421800947866}"
-                },
-                {
-                  "title": "Ideenboard",
-                  "icon": "lucide-file-text",
-                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"99 - Meta/Goodnotes/Studium/Ideenboard.pdf\",\"page\":1,\"left\":-10,\"top\":77,\"zoom\":1.5631297863764613}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Ideenboard",
-                  "icon": "lucide-file-text",
-                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"99 - Meta/Goodnotes/Studium/Ideenboard.pdf\",\"page\":1,\"left\":-10,\"top\":75,\"zoom\":1.5642854513805966}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Ideenboard",
-                  "icon": "lucide-file-text",
-                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"99 - Meta/Goodnotes/Studium/Ideenboard.pdf\",\"page\":1,\"left\":-504,\"top\":218,\"zoom\":0.6}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Ideenboard",
-                  "icon": "lucide-file-text",
-                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"99 - Meta/Goodnotes/Studium/Ideenboard.pdf\",\"page\":1,\"left\":-504,\"top\":866,\"zoom\":0.6}}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Atlas/Notes/Sources/That Time I Got Reincarnated as a Slime.md",
-                "mode": "source",
-                "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "440b3841429709ed",
+    "id": "5d2277a13dcaf186",
     "type": "split",
     "children": [
       {
-        "id": "b208c03cadd231ee",
+        "id": "c62d4fbc51391be1",
         "type": "tabs",
-        "dimension": 69.12681912681913,
         "children": [
           {
-            "id": "dddbab8b18fd423a",
+            "id": "d507b7a610f8db17",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "77966b04a7f238ed",
+            "id": "254103607f669719",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "c594fbba534ec8b3",
+            "type": "leaf",
             "state": {
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "alphabetical"
               }
-            }
-          }
-        ]
-      },
-      {
-        "id": "1ba383f39126cd82",
-        "type": "tabs",
-        "dimension": 30.87318087318087,
-        "children": [
-          {
-            "id": "1dc0cb1cebc39098",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "calendar",
-              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 225.01103591918945
   },
   "right": {
-    "id": "7a43a6c530e72e44",
+    "id": "a101c82ccb5c8b84",
     "type": "split",
     "children": [
       {
-        "id": "ea89fdbc5439f479",
+        "id": "68f067d9a6bdf55c",
         "type": "tabs",
-        "dimension": 30.0497512437811,
         "children": [
           {
-            "id": "4f6e4ddebde66a86",
+            "id": "1a0a6874f51a49a6",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "alphabetical",
-                "useHierarchy": true
+                "sortOrder": "frequency",
+                "useHierarchy": false
               }
             }
           },
           {
-            "id": "962d6727f3fbd2c5",
+            "id": "362c0628eff379fe",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "all-properties",
               "state": {
@@ -647,133 +106,68 @@
         "currentTab": 1
       },
       {
-        "id": "53bf6d97e5774261",
+        "id": "ec92dcad567787bf",
         "type": "tabs",
-        "dimension": 36.616915422885576,
         "children": [
           {
-            "id": "4fd5ddab0d74cf4f",
+            "id": "cfcc5fe740dd0acd",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "01 - Atlas/Notes/Sources/That Time I Got Reincarnated as a Slime.md",
+                "file": "03 - Notes/Test Markdown Components.md",
                 "options": {
-                  "collapse-filter": false,
+                  "collapse-filter": true,
                   "search": "",
-                  "localJumps": 2,
+                  "localJumps": 1,
                   "localBacklinks": true,
                   "localForelinks": true,
-                  "localInterlinks": true,
-                  "showTags": true,
-                  "showAttachments": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
                   "hideUnresolved": false,
-                  "collapse-color-groups": false,
-                  "colorGroups": [
-                    {
-                      "query": "tag:#effort",
-                      "color": {
-                        "a": 1,
-                        "rgb": 16753485
-                      }
-                    },
-                    {
-                      "query": "tag:#source",
-                      "color": {
-                        "a": 1,
-                        "rgb": 5402336
-                      }
-                    },
-                    {
-                      "query": "tag:#output",
-                      "color": {
-                        "a": 1,
-                        "rgb": 16735324
-                      }
-                    },
-                    {
-                      "query": "tag:#note",
-                      "color": {
-                        "a": 1,
-                        "rgb": 5431378
-                      }
-                    },
-                    {
-                      "query": "tag:#people",
-                      "color": {
-                        "a": 1,
-                        "rgb": 16743138
-                      }
-                    }
-                  ],
-                  "collapse-display": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
                   "showArrow": false,
-                  "textFadeMultiplier": -1,
+                  "textFadeMultiplier": 0,
                   "nodeSizeMultiplier": 1,
                   "lineSizeMultiplier": 1,
-                  "collapse-forces": false,
+                  "collapse-forces": true,
                   "centerStrength": 0.518713248970312,
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.15513819977691137,
+                  "scale": 0.396395336883351,
                   "close": true
                 }
               }
             }
           },
           {
-            "id": "ec3e3f9181d9a4c6",
+            "id": "ca705c29cca773f0",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - Atlas/Notes/Sources/That Time I Got Reincarnated as a Slime.md"
+                "file": "03 - Notes/Test Markdown Components.md"
               }
             }
           }
         ]
       },
       {
-        "id": "56111b6032390be0",
+        "id": "844610eddc3bda8e",
         "type": "tabs",
-        "dimension": 33.333333333333336,
         "children": [
           {
-            "id": "d535bd36dbc98e0b",
+            "id": "365a289f9fdffa38",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Atlas/Notes/Sources/That Time I Got Reincarnated as a Slime.md",
-                "collapseAll": true,
+                "file": "03 - Notes/Test Markdown Components.md",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -784,55 +178,28 @@
             }
           },
           {
-            "id": "ae0aed29d208c352",
+            "id": "837dafd9976775f0",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 - Atlas/Notes/Sources/That Time I Got Reincarnated as a Slime.md",
+                "file": "03 - Notes/Test Markdown Components.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "014a0764c502528c",
+            "id": "65235d91cfdb4885",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "git-history-view",
               "state": {}
             }
           },
           {
-            "id": "1453b119d63990e9",
+            "id": "7ace4e5ca9bb28a3",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "git-view",
               "state": {}
@@ -843,89 +210,77 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.5
+    "width": 348.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "remotely-save:Remotely Save": false,
+      "obsidian42-brat:BRAT": false,
       "switcher:Schnellauswahl öffnen": false,
       "graph:Graphen-Ansicht öffnen": false,
       "canvas:Neuen Canvas erstellen": false,
-      "daily-notes:Heutige Notiz öffnen": false,
-      "templates:Vorlage einfügen": false,
       "command-palette:Befehlspalette öffnen": false,
-      "workspaces:Workspace-Layouts verwalten": false,
-      "publish:Änderungen veröffentlichen": false,
-      "obsidian42-brat:BRAT": false,
-      "periodic-notes:Open today's daily note": false,
+      "audio-recorder:Audioaufzeichnung starten/stoppen": false,
+      "omnisearch:Omnisearch": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false,
+      "cmdr:Obsibrain: 🗓️ Open Daily": false,
       "templater-obsidian:Templater": false,
-      "callout-manager:Insert Callout": false,
-      "cmdr:Toggle stacked tabs": false,
+      "remotely-save:Remotely Save": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "4c9ccaebad027042",
+  "active": "7ace4e5ca9bb28a3",
   "lastOpenFiles": [
-    "01 - Atlas/Maps/Anime.md",
-    "Ideaverse.md",
-    "01 - Atlas/Maps/Sources Map.md",
-    "01 - Atlas/Notes/Projects/Cooking/Knoblauchpizza.md",
-    "01 - Atlas/Maps/Kochen.md",
-    "01 - Atlas/Notes/Projects/Cooking",
-    "01 - Atlas/Notes/Projects",
-    "03 - Efforts/Ongoing/ Videos (OE) (Example).md",
-    "+/My Finance (OE) (Example).md",
-    "03 - Efforts/Ongoing/ My Taxes 2023 (OE) (Example).md",
-    "+/3 Ways to Go Faster with Obsidian (Example).md",
-    "01 - Atlas/Notes/Sources/That Time I Got Reincarnated as a Slime.md",
-    "Home.md",
-    "01 - Atlas/Notes/People/Nina Simone (kit).md",
-    "01 - Atlas/Notes/Sources/Sinnerman (song).md",
-    "01 - Atlas/Notes/Sources/The Almagest.md",
-    "01 - Atlas/Notes/Sources/1984 (book).md",
-    "01 - Atlas/Notes/Sources/Elden Ring.md",
-    "99 - Meta/Preloaded Classes/Ranks and Types.md",
-    "01 - Atlas/Maps/Book.md",
-    "99 - Meta/Preloaded Classes/(PRELOAD) Page Width.md",
-    "99 - Meta/Preloaded Classes/(PRELOAD) Dailies.md",
-    "99 - Meta/Preloaded Classes/(PRELOAD) Colors.md",
-    "99 - Meta/Preloaded Classes/(PRELOAD) Titles & Header.md",
-    "01 - Atlas/Notes/Sources/Analogy as Core (talk).md",
-    "01 - Atlas/Maps/Movie.md",
-    "01 - Atlas/Maps/Add.md",
-    "01 - Atlas/Maps/Song.md",
-    "99 - Meta/Goodnotes/Studium/Ideenboard.pdf",
-    "99 - Meta/Goodnotes/Studium",
-    "99 - Meta/Goodnotes",
-    "99 - Meta/Goodnotes/01 - Goodnotes/Studium/Ideenboard.pdf",
-    "99 - Meta/Goodnotes/01 - Goodnotes/Studium",
-    "99 - Meta/Goodnotes/01 - Goodnotes",
-    "99 - Meta/Excalidraw",
-    "99 - Meta/Files (Images, PDFs, Audio)/wolverine-tethered.jpg",
-    "99 - Meta/Files (Images, PDFs, Audio)/whelan-the-wave-1994.jpg",
-    "99 - Meta/Files (Images, PDFs, Audio)/whelan-space-station-1978-mod.jpg",
-    "99 - Meta/Files (Images, PDFs, Audio)/stay-on-target.jpg",
-    "99 - Meta/Files (Images, PDFs, Audio)/sort-by-file-name-a-to-z.png",
-    "99 - Meta/Files (Images, PDFs, Audio)/feynman-triangulation-1.png",
-    "99 - Meta/Files (Images, PDFs, Audio)/CleanShot 2023-07-30 at 21.37.43.png",
-    "99 - Meta/Files (Images, PDFs, Audio)",
-    "Atlas/Utilities/Images/ideaverse.jpg",
-    "Atlas/Utilities/Images/_c411a4c0-20c7-420c-a857-15fffec1e1b4.jpg",
+    "99 - Meta/Templates/notes/Fleeting.md",
+    "03 - Notes/Test Markdown Components.md",
+    "99 - Meta/Templates/🛑Callout.md",
+    "99 - Meta/Templates/📅Table.md",
+    "03 - Notes/How to make easy pizza dough.md",
+    "99 - Meta/JavaScript/Dataview/views/notes.js",
+    "99 - Meta/JavaScript/Dataview/views/tasks.js",
+    "99 - Meta/JavaScript/Dataview/views/progress-bar.js",
+    "99 - Meta/JavaScript/Dataview/views/projects.js",
+    "99 - Meta/JavaScript/Dataview/views/goals.js",
+    "99 - Meta/JavaScript/Dataview/views/areas.js",
+    "99 - Meta/JavaScript/Dataview/views/links.js",
+    "99 - Meta/JavaScript/Dataview/views/button.js",
+    "99 - Meta/JavaScript/Dataview/views",
+    "99 - Meta/JavaScript/Dataview",
+    "99 - Meta/Templates/plan/Yearly.md",
+    "99 - Meta/Templates/plan/Weekly.md",
+    "99 - Meta/Templates/plan/Quarterly.md",
+    "99 - Meta/Templates/plan/Monthly.md",
+    "99 - Meta/Templates/plan/Goal.md",
+    "99 - Meta/Templates/plan/Daily.md",
+    "99 - Meta/Templates/para/Resource.md",
+    "99 - Meta/Templates/para/Area.md",
+    "99 - Meta/Templates/para/Project.md",
     "Unbenannt.canvas",
-    "Atlas/Utilities/Images/lyt-kit-example-cooling-pad-.png",
-    "Atlas/Utilities/Canvases/2023-03-20 - Review, Brain Dump, Imagine, Prioritize.canvas",
-    "Atlas/Utilities/Canvases/LYT W10 Calendar Canvas.canvas",
-    "Atlas/Utilities/Canvases/LYT Ship Dashboard.canvas",
-    "Atlas/Utilities/Canvases/LYT W11 Calendar Canvas.canvas",
-    "Atlas/Utilities/Canvases/Obsidian Canvas MOC.canvas",
-    "Atlas/Utilities/Canvases/Ship of the Sensemaker.canvas",
-    "Atlas/Utilities/Canvases/LYT 2023 Rules.canvas",
-    "Atlas/Utilities/Canvases/LYT Book Framing.canvas",
-    "Atlas/Utilities/Canvases/LYT Nick Weekly Schedule.canvas"
+    "00 - Para/03 - Ressources/Cooking.md",
+    "00 - Para/01 - Projects/Travel Budgeting.md",
+    "assets/templates/para/Project.md",
+    "1-projects/Unbenannt.md",
+    "assets/templates/utility/🛑Callout.md",
+    "assets/templates/utility/📅Table.md",
+    "assets/templates/plan/Daily.md",
+    "02 - Plan/1-daily/2024-08-11.md",
+    "02 - Plan/0-goals/Travel to Finland in 2024.md",
+    "02 - Plan/5-yearly/2025.md",
+    "00 - Para/02 - Areas/Travel.md",
+    "assets/CleanShot 2024-01-27 at 19.57.34@2x.jpg",
+    "assets/IMG_7296.png",
+    "assets/IMG_7188.jpeg",
+    "assets/Pasted image 20231229152524.png",
+    "assets/Pasted image 20231229152506.png",
+    "assets/Pasted image 20231229152448.png",
+    "assets/Pasted image 20231229151716.png",
+    "assets/wheel-of-life.png",
+    "assets/CleanShot 2023-12-22 at 16.23.54.jpg",
+    "assets/CleanShot 2023-12-22 at 16.24.25.jpg",
+    "Dashboard.canvas",
+    "Untitled.canvas"
   ]
 }

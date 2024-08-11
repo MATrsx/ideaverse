@@ -1,44 +1,22 @@
 {
   "collapse-filter": false,
-  "search": "",
-  "showTags": true,
+  "search": "tag:#read/book  ",
+  "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": true,
-  "showOrphans": true,
-  "collapse-color-groups": false,
-  "colorGroups": [
-    {
-      "query": "tag: #map  ",
-      "color": {
-        "a": 1,
-        "rgb": 9338339
-      }
-    },
-    {
-      "query": "path:Atlas/Notes/Ideas",
-      "color": {
-        "a": 1,
-        "rgb": 6084302
-      }
-    },
-    {
-      "query": "path:Home.md  ",
-      "color": {
-        "a": 1,
-        "rgb": 14406656
-      }
-    }
-  ],
-  "collapse-display": false,
-  "showArrow": true,
-  "textFadeMultiplier": -3,
-  "nodeSizeMultiplier": 1.32618607516944,
-  "lineSizeMultiplier": 0.517805642633229,
-  "collapse-forces": false,
-  "centerStrength": 0.488777396355955,
-  "repelStrength": 15.3578030102984,
-  "linkStrength": 0.67318017780125,
-  "linkDistance": 203,
-  "scale": 0.10907689368170403,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": true,
+  "colorGroups": [],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 1.4617499952676027,
   "close": true
 }
