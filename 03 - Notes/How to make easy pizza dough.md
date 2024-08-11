@@ -4,8 +4,16 @@ related: "[[Cooking]]"
 created: "[[2024-03-19]]"
 modified: 2024-03-19 - 08:18 pm
 Erstellt am: Sonntag, 📅11. August 2024, 🕐01:05:24
-Geändert am: Sonntag, 📅11. August 2024, 🕐13:43:06
+Geändert am: Sonntag, 📅11. August 2024, 🕐18:10:14
 ---
+
+<details>
+<summary>Titel</summary>
+<br>
+Titel
+dfsa
+dsaf
+</details>
 
 # Overview: How to Make Easy Pizza Dough
 

@@ -28,11 +28,12 @@
   "obsidian-utils-plugin",
   "obsibrain-plugin",
   "various-complements",
-  "code-styler",
   "definition-list",
   "html-tabs",
   "obsidian42-brat",
   "obsidian-git",
   "remotely-save",
-  "pdf-plus"
+  "pdf-plus",
+  "share-note",
+  "code-styler"
 ]

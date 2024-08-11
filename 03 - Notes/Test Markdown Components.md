@@ -1,6 +1,6 @@
 ---
 Erstellt am: Sonntag, 📅11. August 2024, 🕐12:15:27
-Geändert am: Sonntag, 📅11. August 2024, 🕐16:57:45
+Geändert am: Sonntag, 📅11. August 2024, 🕐21:17:40
 cssclasses: [test]
 ---
 
@@ -39,9 +39,11 @@ Complete Codeblock
 > [!info]+ Callouts
 > Beispielhaftes Callouts
 
-```python title="Testfunktion"
-int x = 1
+```python title="Python" {} ln:
+import pillow
 
+def x():
+    return x
 ```
 
 Obsibrain Use without License:
