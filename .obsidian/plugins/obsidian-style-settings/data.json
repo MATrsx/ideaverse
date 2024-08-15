@@ -102,5 +102,6 @@
   "primary-theme@@zero-tab-anim": false,
   "primary-theme@@zero-popup-popdown": true,
   "primary-theme@@editor-file-header": "file-header-default",
-  "primary-theme@@colorful-folders_inherit-color": false
+  "primary-theme@@colorful-folders_inherit-color": false,
+  "modular-css-layout-mc@@list-grid-min-width": "100px"
 }

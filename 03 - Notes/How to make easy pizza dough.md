@@ -4,7 +4,7 @@ related: "[[Cooking]]"
 created: "[[2024-03-19]]"
 modified: 2024-03-19 - 08:18 pm
 Erstellt am: Sonntag, 📅11. August 2024, 🕐01:05:24
-Geändert am: Sonntag, 📅11. August 2024, 🕐18:10:14
+Geändert am: Mittwoch, 📅14. August 2024, 🕐19:06:25
 ---
 
 <details>
@@ -23,3 +23,4 @@ Rise: Place dough into a greased mixing bowl, cover tightly, and set aside to ri
 Punch & shape: Punch down risen dough to release air bubbles. Divide in 2. Roll dough out into a 12-inch circle. Cover and rest as you prep the pizza toppings.
 Top it: Top with favorite pizza toppings.
 Bake: Bake pizza at a very high temperature for only about 15 minutes.
+

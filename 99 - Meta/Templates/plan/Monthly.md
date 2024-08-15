@@ -1,10 +1,10 @@
 ---
-created: '2024-08-11'
+created: '<% tp.file.creation_date("YYYY-MM-DD") %>'
 modified: 2024-04-11 - 01:51 pm
 ---
-⏮️ [[0-plan/5-yearly/Invalid date|Yearly]] > [[0-plan/4-quarterly/Invalid date|Quarterly]] ⏭️
+⏮️ <% tp.user.monthlyZoomOutRibbon(tp.file.title) %> ⏭️
 
-⬅️ [[Invalid date|Invalid date]] < Invalid date > [[Invalid date|Invalid date]] ➡️
+⬅️ <% tp.user.monthlyNextPrevRibbon(tp.file.title) %> ➡️
 
 ---
 
@@ -36,13 +36,13 @@ modified: 2024-04-11 - 01:51 pm
 > [!SUCCESS] Goals Done (This Month) 🎯
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/goals", {type: "completed", onDate: "🛑Callout ", scope: "all"})
+> await dv.view("JavaScript/Dataview/views/goals", {type: "completed", onDate: "<% tp.file.title %> ", scope: "all"})
 > ```
 
 > [!SUCCESS] Projects Done (This Month) 💼
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/projects", {type: "completed", onDate: "🛑Callout ", scope: "all"})
+> await dv.view("JavaScript/Dataview/views/projects", {type: "completed", onDate: "<% tp.file.title %> ", scope: "all"})
 > ```
 
 ## 1. Review Each Area of Your Life
@@ -50,7 +50,7 @@ modified: 2024-04-11 - 01:51 pm
 > [!LIST] All Areas 📥
 > 
 > ```dataviewjs
-> dv.view("scripts/dataview/views/areas", {type:"all"})
+> dv.view("JavaScript/Dataview/views/areas", {type:"all"})
 > ```
 
 ## 1. What New Skills Did You Acquire or Which Existing Skills Did You Enhance?
@@ -76,17 +76,17 @@ modified: 2024-04-11 - 01:51 pm
 > [!TIP] Ongoing Goals 📅
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/goals", {type: "ongoing", onDate: "🛑Callout "})
+> await dv.view("JavaScript/Dataview/views/goals", {type: "ongoing", onDate: "<% tp.file.title %> "})
 > ```
 
 > [!SUMMARY] On hold Goals 📅
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/goals", {type: "on-hold", onDate: "🛑Callout "})
+> await dv.view("JavaScript/Dataview/views/goals", {type: "on-hold", onDate: "<% tp.file.title %> "})
 > ```
 
 ```dataviewjs
-await dv.view("scripts/dataview/views/button", {command: "add-goal"})
+await dv.view("JavaScript/Dataview/views/button", {command: "add-goal"})
 ```
 
 ## Projects
@@ -94,9 +94,9 @@ await dv.view("scripts/dataview/views/button", {command: "add-goal"})
 > [!TIP] Ongoing Projects 📅
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/projects", {type: "ongoing"})
+> await dv.view("JavaScript/Dataview/views/projects", {type: "ongoing"})
 > ```
 
 ```dataviewjs
-await dv.view("scripts/dataview/views/button", {command: "add-project"})
+await dv.view("JavaScript/Dataview/views/button", {command: "add-project"})
 ```

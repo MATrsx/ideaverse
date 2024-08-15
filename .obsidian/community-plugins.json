@@ -35,5 +35,11 @@
   "remotely-save",
   "pdf-plus",
   "share-note",
-  "code-styler"
+  "code-styler",
+  "markdown-attributes",
+  "link-favicon",
+  "modalforms",
+  "ink",
+  "slash-commander",
+  "obsidian-excalidraw-plugin"
 ]

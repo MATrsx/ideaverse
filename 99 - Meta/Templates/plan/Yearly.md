@@ -1,8 +1,8 @@
 ---
-created: '2024-08-11'
+created: '<% tp.file.creation_date("YYYY-MM-DD") %>'
 modified: 2024-04-11 - 01:52 pm
 ---
-⬅️ [[Invalid date|Invalid date]] < Invalid date > [[Invalid date|Invalid date]] ➡️
+⬅️ <% tp.user.yearlyNextPrevRibbon(tp.file.title) %> ➡️
 
 ---
 
@@ -22,20 +22,20 @@ modified: 2024-04-11 - 01:52 pm
 
 # 2. Reflect and Review
 
-> [!SUMMARY]+ Goodbye 🛑Callout 👁️‍🗨️
+> [!SUMMARY]+ Goodbye <% tp.file.title %> 👁️‍🗨️
 > - It's time to wrap up.
 > Have a look at what you have achieved this year, revisit those memories and then carefully answer the questions below.
 
 > [!SUCCESS] Goals Done (This Year) 🎯
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/goals", {type: "completed", onDate: "🛑Callout " , scope: "all"})
+> await dv.view("JavaScript/Dataview/views/goals", {type: "completed", onDate: "<% tp.file.title %> " , scope: "all"})
 > ```
 
 > [!SUCCESS] Projects Done (This Year) 💼
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/projects", {type: "completed", onDate: "🛑Callout " , scope: "all"})
+> await dv.view("JavaScript/Dataview/views/projects", {type: "completed", onDate: "<% tp.file.title %> " , scope: "all"})
 > ```
 
 *Yearly reflect method inspired by [@aliabdaal](https://www.youtube.com/@aliabdaal)* and [@Nicolascole77](https://twitter.com/Nicolascole77)'s work.
@@ -426,17 +426,17 @@ modified: 2024-04-11 - 01:52 pm
 > [!TIP] Ongoing Goals 📅
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/goals", {type: "ongoing", onDate: "🛑Callout "})
+> await dv.view("JavaScript/Dataview/views/goals", {type: "ongoing", onDate: "<% tp.file.title %> "})
 > ```
 
 > [!SUMMARY] On hold Goals 📅
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/goals", {type: "on-hold", onDate: "🛑Callout "})
+> await dv.view("JavaScript/Dataview/views/goals", {type: "on-hold", onDate: "<% tp.file.title %> "})
 > ```
 
 ```dataviewjs
-await dv.view("scripts/dataview/views/button", {command: "add-goal"})
+await dv.view("JavaScript/Dataview/views/button", {command: "add-goal"})
 ```
 
 (Add button goals)
@@ -446,15 +446,15 @@ await dv.view("scripts/dataview/views/button", {command: "add-goal"})
 > [!TIP] Ongoing Projects 📅
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/projects", {type: "ongoing"})
+> await dv.view("JavaScript/Dataview/views/projects", {type: "ongoing"})
 > ```
 
 > [!SUMMARY] On Hold Projects 📅
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/projects", {type: "on-hold"})
+> await dv.view("JavaScript/Dataview/views/projects", {type: "on-hold"})
 > ```
 
 ```dataviewjs  
-await dv.view("scripts/dataview/views/button", {command: "add-project"})
+await dv.view("JavaScript/Dataview/views/button", {command: "add-project"})
 ```

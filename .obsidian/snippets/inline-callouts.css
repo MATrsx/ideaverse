@@ -1,0 +1,94 @@
+/*================================================================\
+|Adding Inline Callouts                                            |
+\================================================================*/
+
+div.HyperMD-list-line.HyperMD-list-line-1.cm-line:has(.cm-iconize-icon[data-icon="FlQuestion"]) {
+    margin-bottom: 0.2em !important;
+    margin-top: 0.2em !important; 
+    background-color: rgba(0,255,238, 0.1);
+    border-radius: 4px;
+}
+
+div.HyperMD-list-line.HyperMD-list-line-1.cm-line:has(.cm-iconize-icon[data-icon="FlHashtag"]) {
+    margin-bottom: 0.2em !important;
+    margin-top: 0.2em !important; 
+    background-color: rgba(255, 30, 0, 0.1);
+    border-radius: 4px;
+}
+
+div.HyperMD-list-line.HyperMD-list-line-1.cm-line:has(.cm-iconize-icon[data-icon="FlInfo"]) {
+    margin-bottom: 0.2em !important;
+    margin-top: 0.2em !important; 
+    background-color: rgba(0,255,238, 0.1);
+    border-radius: 4px;
+}
+
+div.HyperMD-list-line.HyperMD-list-line-1.cm-line:has(.cm-iconize-icon[data-icon="FlBulb"]) {
+    margin-bottom: 0.2em !important;
+    margin-top: 0.2em !important; 
+    background-color: rgba(251, 255, 0, 0.1);
+    border-radius: 4px;
+}
+
+div.HyperMD-list-line.HyperMD-list-line-1.cm-line:has(.cm-iconize-icon[data-icon="FlAdvertising"]) {
+    margin-bottom: 0.2em !important;
+    margin-top: 0.2em !important; 
+    background-color: rgba(251, 255, 0, 0.1);
+    border-radius: 4px;
+}
+
+div.HyperMD-list-line.HyperMD-list-line-1.cm-line:has(.cm-iconize-icon[data-icon="FlTranslate"]) {
+    margin-bottom: 0.2em !important;
+    margin-top: 0.2em !important; 
+    background-color: rgba(0, 145, 255, 0.1);
+    border-radius: 4px;
+}
+
+div.HyperMD-list-line.HyperMD-list-line-1.cm-line:has(.cm-iconize-icon[data-icon="FlLocation"]) {
+    margin-bottom: 0.2em !important;
+    margin-top: 0.2em !important; 
+    background-color: rgba(255, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+div.HyperMD-list-line.HyperMD-list-line-1.cm-line:has(.cm-iconize-icon[data-icon="FlBookmark"]) {
+    margin-bottom: 0.2em !important;
+    margin-top: 0.2em !important; 
+    background-color: rgba(0, 255, 255, 0.1);
+    border-radius: 4px;
+}
+
+div.HyperMD-list-line.HyperMD-list-line-1.cm-line:has(.cm-iconize-icon[data-icon="FlFavourites"]) {
+    margin-bottom: 0.2em !important;
+    margin-top: 0.2em !important; 
+    background-color: rgba(255, 251, 0, 0.1);
+    border-radius: 4px;
+}
+
+div.HyperMD-list-line.HyperMD-list-line-1.cm-line:has(.cm-iconize-icon[data-icon="FlWarning"]) {
+    margin-bottom: 0.2em !important;
+    margin-top: 0.2em !important; 
+    background-color: rgba(255, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+div.HyperMD-list-line.HyperMD-list-line-1.cm-line:has(.cm-iconize-icon[data-icon="Fl3dFire"]) {
+    margin-bottom: 0.2em !important;
+    margin-top: 0.2em !important; 
+    background-color: rgba(255, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+div.HyperMD-list-line.HyperMD-list-line-1.cm-line:has(.cm-iconize-icon[data-icon="FlPaperClip"]) {
+    margin-bottom: 0.2em !important;
+    margin-top: 0.2em !important; 
+    background-color: rgba(242, 0, 255, 0.1);
+    border-radius: 4px;
+}
+
+div.HyperMD-list-line.HyperMD-list-line-1.cm-line:has(.cm-iconize-icon[data-icon="FlLink"]) {
+    margin-bottom: 0.2em !important;
+    margin-top: 0.2em !important; 
+    background-color: rgba(242, 0, 255, 0.1);
+    border-radius: 4px;
+}

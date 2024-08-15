@@ -1,14 +1,14 @@
 ---
-created: '2024-08-11'
+created: '<% tp.file.creation_date("YYYY-MM-DD") %>'
 modified: 2024-04-11 - 01:51 pm
 ---
-⏮️ [[0-plan/5-yearly/Invalid date|Yearly]] ⏭️
+⏮️ <% tp.user.quarterlyZoomOutRibbon(tp.file.title) %> ⏭️
 
-⬅️ [[Invalid date|Invalid date]] < Invalid date > [[Invalid date|Invalid date]] ➡️
+⬅️ <% tp.user.quarterlyNextPrevRibbon(tp.file.title) %> ➡️
 
 ---
 
-**(undefined NaN ~ undefined NaN)**
+<% tp.user.quarterlyDateInfo(tp.file.title) %>
 
 ---
 
@@ -37,13 +37,13 @@ modified: 2024-04-11 - 01:51 pm
 > [!SUCCESS] Goals Done (This Quarter) 🎯
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/goals", {type: "completed", onDate: "🛑Callout " , scope: "all"})
+> await dv.view("JavaScript/Dataview/views/goals", {type: "completed", onDate: "<% tp.file.title %> " , scope: "all"})
 > ```
 
 > [!SUCCESS] Projects Done (This Quarter) 💼
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/projects", {type: "completed", onDate: "🛑Callout " , scope: "all"})
+> await dv.view("JavaScript/Dataview/views/projects", {type: "completed", onDate: "<% tp.file.title %> " , scope: "all"})
 > ```
 
 ## 1. How Have Your Long-term Goals or Vision Shifted Based on This Quarter's Insights?
@@ -80,17 +80,17 @@ modified: 2024-04-11 - 01:51 pm
 > [!TIP] Ongoing Goals 📅
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/goals", {type: "ongoing"})
+> await dv.view("JavaScript/Dataview/views/goals", {type: "ongoing"})
 > ```
 
 > [!SUMMARY] On hold Goals 📅
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/goals", {type: "on-hold"})
+> await dv.view("JavaScript/Dataview/views/goals", {type: "on-hold"})
 > ```
 
 ```dataviewjs
-await dv.view("scripts/dataview/views/button", {command: "add-goal"})
+await dv.view("JavaScript/Dataview/views/button", {command: "add-goal"})
 ```
 
 ## Projects
@@ -98,15 +98,15 @@ await dv.view("scripts/dataview/views/button", {command: "add-goal"})
 > [!TIP] Ongoing Projects 📅
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/projects", {type: "ongoing"})
+> await dv.view("JavaScript/Dataview/views/projects", {type: "ongoing"})
 > ```
 
 > [!SUMMARY] On Hold Projects 📅
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/projects", {type: "on-hold"})
+> await dv.view("JavaScript/Dataview/views/projects", {type: "on-hold"})
 > ```
 
 ```dataviewjs
-await dv.view("scripts/dataview/views/button", {command: "add-project"})
+await dv.view("JavaScript/Dataview/views/button", {command: "add-project"})
 ```

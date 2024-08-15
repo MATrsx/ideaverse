@@ -1,7 +1,3 @@
----
-Erstellt am: Sonntag, 📅11. August 2024, 🕐16:41:01
-Geändert am: Sonntag, 📅11. August 2024, 🕐17:07:52
----
 <%*
 
 const callouts = {
@@ -81,13 +77,19 @@ const type = await tp.system.suggester(Object.values(callouts), Object.keys(call
 
 const fold = await tp.system.suggester(['None', 'Expanded', 'Collapsed'], ['', '+', '-'], true, 'Select callout fold option.');
 
+let floating = await tp.system.suggester(['None', '👈Float left', '👉Float right'], ['', 'float-left', 'float-right'], true, 'Select floating option:');
+
+if (floating) {
+	floating += await tp.system.suggester(['Fit content (default)', '⬛⬛◼️◽⬜⬜⬜⬜⬜⬜⬜ 25%', '⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜ 40%', '⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜ 50%', '⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜ 60%', '⬛⬛⬛⬛⬛⬛⬛◼️◽⬜⬜ 75%'], ['', '-25', '-40', '-50', '-60', '-75'], true, 'Select Callout size option:');
+}
+
 const title = await tp.system.prompt('Title:', '', true);
 
 let content = await tp.system.prompt('Content (New line -> Shift + Enter):', '', true, true);
 
 content = content.split('\n').map(line => `> ${line}`).join('\n')
 
-const calloutHead = `> [!${type}]${fold} ${title}\n`;
+const calloutHead = `> [!${type}|${floating}]${fold} ${title}\n`;
 
 tR += calloutHead + content
 

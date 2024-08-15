@@ -17,13 +17,13 @@ modified: 2024-04-11 - 01:53 pm
 > [!TODO] Remaining Tasks ✔️
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/tasks", {type: "remaining" })
+> await dv.view("JavaScript/Dataview/views/tasks", {type: "remaining" })
 > ```
 
 > [!SUCCESS]- Tasks Done ✅
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/tasks", {type: "completed"})
+> await dv.view("JavaScript/Dataview/views/tasks", {type: "completed"})
 > ```
 
 > [!EXAMPLE] All Tasks 📝 <js-todo-callout></js-todo-callout>
@@ -35,5 +35,5 @@ modified: 2024-04-11 - 01:53 pm
 > [!NOTE] Links 🔗
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/links", {type:"notes"})
+> await dv.view("JavaScript/Dataview/views/links", {type:"notes"})
 > ```

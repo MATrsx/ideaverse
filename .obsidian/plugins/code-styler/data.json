@@ -300,9 +300,9 @@
     "settings": {
       "codeblock": {
         "lineNumbers": false,
-        "unwrapLines": true,
-        "wrapLinesActive": true,
-        "curvature": 4
+        "unwrapLines": false,
+        "wrapLinesActive": false,
+        "curvature": 8
       },
       "gutter": {
         "highlight": true,
@@ -401,7 +401,7 @@
       "dark": {
         "codeblock": {
           "backgroundColour": "--code-background",
-          "textColour": "--code-normal"
+          "textColour": "#D7C0A3"
         },
         "gutter": {
           "backgroundColour": "--code-background",
@@ -411,7 +411,7 @@
         "header": {
           "backgroundColour": "--code-background",
           "title": {
-            "textColour": "--code-comment"
+            "textColour": "#D7C0A3"
           },
           "languageTag": {
             "backgroundColour": "--code-background",
@@ -432,9 +432,9 @@
         },
         "inline": {
           "backgroundColour": "--code-background",
-          "textColour": "--code-normal",
-          "activeTextColour": "--code-normal",
-          "titleTextColour": "--code-comment"
+          "textColour": "#D7C0A3",
+          "activeTextColour": "#D7C0A3",
+          "titleTextColour": "#D7C0A3"
         },
         "advanced": {
           "buttonColour": "--text-muted",

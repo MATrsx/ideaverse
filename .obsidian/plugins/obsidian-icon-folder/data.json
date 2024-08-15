@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "TaH1",
       "BoTable",
       "💰",
       "⛵",
-      "🇫🇮",
-      "🍲"
+      "🇫🇮"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -76,5 +76,5 @@
   "02 - Plan/0-goals/Travel to Finland in 2024.md": "🇫🇮",
   "00 - Para/01 - Projects/Travel Budgeting.md": "💰",
   "00 - Para/02 - Areas/Travel.md": "⛵",
-  "00 - Para/03 - Ressources/Cooking.md": "🍳"
+  "00 - Para/03 - Resources/Cooking.md": "🍳"
 }

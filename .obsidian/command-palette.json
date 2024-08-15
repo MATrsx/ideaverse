@@ -2,6 +2,7 @@
   "pinned": [
     "omnisearch:show-modal",
     "obsibrain-plugin:new-task",
-    "obsibrain-plugin:new-fleeting-note"
+    "obsibrain-plugin:new-fleeting-note",
+    "dataview:dataview-rebuild-current-view"
   ]
 }

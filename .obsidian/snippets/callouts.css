@@ -40,3 +40,10 @@
     --callout-color: 134, 142, 150;
     --callout-icon: brain;
 }
+
+/* text-file */
+
+.callout[data-callout="text-file"] {
+    --callout-color: 134, 142, 150;
+    --callout-icon: file-text;
+}

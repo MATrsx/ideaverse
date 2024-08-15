@@ -17,7 +17,10 @@
     "callouts",
     "MCL Wide Views",
     "MCL Multi Column",
-    "MCL Gallery Cards"
+    "MCL Gallery Cards",
+    "inline-callouts",
+    "grid-cards",
+    "CSS-Snippet-Collection"
   ],
   "showViewHeader": true,
   "nativeMenus": true,

@@ -1,15 +1,15 @@
 ---
-created: '🛑Callout'
+created: '<% tp.file.title %>'
 modified: 2024-06-11 - 06:58 pm
 ---
 
-⏮️[[0-plan/5-yearly/Invalid date|Yearly]] > [[0-plan/4-quarterly/Invalid date|Quarterly]] > [[0-plan/3-monthly/Invalid date|Monthly]] > [[0-plan/2-weekly/Invalid date|Weekly]]⏭️
+⏮️<% tp.user.dailyZoomOutRibbon(tp.file.title) %>⏭️
  
-⬅️[[Invalid date|Invalid date]] < Invalid date > [[Invalid date|Invalid date]]➡️
+⬅️<% tp.user.dailyNextPrevRibbon(tp.file.title) %>➡️
 
 ---
 
-**Invalid date of Week NaN, Invalid date**
+<% tp.user.dailyDateInfo(tp.file.title) %>
 
 ****
 
@@ -20,31 +20,31 @@ modified: 2024-06-11 - 06:58 pm
 > [!MISSING] Overdue Tasks 🚨
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/tasks", {type: "overdue", onDate: "🛑Callout " , scope: "all"})
+> await dv.view("JavaScript/Dataview/views/tasks", {type: "overdue", onDate: "<% tp.file.title %> " , scope: "all"})
 > ```
 
 > [!CAUTION] Due Tasks for Today 🧨
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/tasks", {type: "due", onDate: "🛑Callout " , scope: "all"})
+> await dv.view("JavaScript/Dataview/views/tasks", {type: "due", onDate: "<% tp.file.title %> " , scope: "all"})
 > ```
 
 > [!TIP] Scheduled Tasks for Today 🔥
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/tasks", {type: "scheduled", onDate: "🛑Callout " , scope: "all"})
+> await dv.view("JavaScript/Dataview/views/tasks", {type: "scheduled", onDate: "<% tp.file.title %> " , scope: "all"})
 > ```
 
 > [!TODO] Ongoing Tasks 🏃‍♂️
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/tasks", {type: "ongoing", onDate:"🛑Callout ", scope: "all"})
+> await dv.view("JavaScript/Dataview/views/tasks", {type: "ongoing", onDate:"<% tp.file.title %> ", scope: "all"})
 > ```
 
 > [!EXAMPLE]- Due Tasks (This week) 📅
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/tasks", {type: "due", onDate: "🛑Callout ", forceFormat: "isoWeek", scope: "all"})
+> await dv.view("JavaScript/Dataview/views/tasks", {type: "due", onDate: "<% tp.file.title %> ", forceFormat: "isoWeek", scope: "all"})
 > ```
 
 ---
@@ -79,7 +79,7 @@ modified: 2024-06-11 - 06:58 pm
 > [!TIP] Ongoing Goals 📅
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/goals", {type: "ongoing"})
+> await dv.view("JavaScript/Dataview/views/goals", {type: "ongoing"})
 > ```
 
 ## Projects
@@ -87,7 +87,7 @@ modified: 2024-06-11 - 06:58 pm
 > [!TIP] Ongoing Projects 📅
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/projects", {type: "ongoing"})
+> await dv.view("JavaScript/Dataview/views/projects", {type: "ongoing"})
 > ```
 
 ## Tasks
@@ -95,13 +95,13 @@ modified: 2024-06-11 - 06:58 pm
 > [!EXAMPLE]- Upcoming Tasks (3 days) 🗓️
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/tasks", {type: "upcoming", onDate: "🛑Callout " , scope: "all"})
+> await dv.view("JavaScript/Dataview/views/tasks", {type: "upcoming", onDate: "<% tp.file.title %> " , scope: "all"})
 > ```
 
 > [!SUCCESS]- Tasks Done ✅
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/tasks", {type: "completed", onDate: "🛑Callout ", scope: "all"})
+> await dv.view("JavaScript/Dataview/views/tasks", {type: "completed", onDate: "<% tp.file.title %> ", scope: "all"})
 > ```
 
 ---
@@ -111,11 +111,11 @@ modified: 2024-06-11 - 06:58 pm
 > [!NOTE] Notes created today 🔗
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/links", {type:"notes"})
+> await dv.view("JavaScript/Dataview/views/links", {type:"notes"})
 > ```
 
 > [!NOTE] Notes updated today ✏️
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/links", {type:"notes-updated", onDate: "🛑Callout "})
+> await dv.view("JavaScript/Dataview/views/links", {type:"notes-updated", onDate: "<% tp.file.title %> "})
 > ```

@@ -4,11 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "2e86503c5b2f31a0",
+        "id": "64036f8d4ab4d329",
         "type": "tabs",
         "children": [
           {
-            "id": "ca4b9e0ba1da355c",
+            "id": "fe5fc58284cd7e8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "99 - Meta/Templates/🛑Callout.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6812a8805f5ad4ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -56,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#mcl/list-card",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,6 +91,7 @@
       {
         "id": "68f067d9a6bdf55c",
         "type": "tabs",
+        "dimension": 35.174418604651166,
         "children": [
           {
             "id": "1a0a6874f51a49a6",
@@ -108,6 +122,7 @@
       {
         "id": "ec92dcad567787bf",
         "type": "tabs",
+        "dimension": 31.492248062015506,
         "children": [
           {
             "id": "cfcc5fe740dd0acd",
@@ -138,7 +153,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.396395336883351,
+                  "scale": 0.1438468610048668,
                   "close": true
                 }
               }
@@ -159,6 +174,7 @@
       {
         "id": "844610eddc3bda8e",
         "type": "tabs",
+        "dimension": 33.33333333333333,
         "children": [
           {
             "id": "365a289f9fdffa38",
@@ -229,57 +245,60 @@
       "remotely-save:Remotely Save": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "modalforms:Edit forms": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ca4b9e0ba1da355c",
+  "active": "6812a8805f5ad4ab",
   "lastOpenFiles": [
-    "99 - Meta/Templates/📟Codeblock.md",
+    "99 - Meta/Templates/🛑Callout.md",
     "03 - Notes/Test Markdown Components.md",
+    "99 - Meta/Templates/📅Table.md",
+    "99 - Meta/Templates/📶Multi Column.md",
+    "99 - Meta/Templates/📛Inline Callout.md",
+    "99 - Meta/Templates/🔗URL.md",
+    "99 - Meta/Templates/📟Codeblock.md",
+    "99 - Meta/Templates/🔛Card Row.md",
+    "99 - Meta/Templates/🎞️Content Tab.md",
+    "01 - Studium/Home.md",
+    "99 - Meta/Files (Images, PDFs, Audio)/Excalidraw/Test Markdown Components 2024-08-15 17.59.33.excalidraw.md",
+    "99 - Meta/Files (Images, PDFs, Audio)/Excalidraw",
+    "99 - Meta/Files (Images, PDFs, Audio)/Ink/Writing/2024.8.15 - 17.54pm.writing",
+    "99 - Meta/Files (Images, PDFs, Audio)/Ink/Writing",
+    "99 - Meta/Files (Images, PDFs, Audio)/Ink",
+    "99 - Meta/Files (Images, PDFs, Audio)/Mathematics.svg",
+    "99 - Meta/Templates/🖼️Image.md",
+    "00 - Para/01 - Projects/Syst.md",
+    "03 - Notes/How to make easy pizza dough.md",
+    "99 - Meta/Files (Images, PDFs, Audio)/Computer Science.svg",
+    "99 - Meta/Files (Images, PDFs, Audio)/Test.svg.png",
+    "99 - Meta/Files (Images, PDFs, Audio)/Mathe.png",
+    "99 - Meta/Files (Images, PDFs, Audio)/Mathematics-amico.svg",
+    "00 - Para/01 - Projects/Sport System.md",
+    "00 - Para/01 - Projects/Travel Budgeting.md",
+    "99 - Meta/Files (Images, PDFs, Audio)/Mountain-Pixel-Art.jpg",
+    "update_svg_ids.py",
+    "Textdokument (neu).txt",
+    "99 - Meta/Templates/Test Form.md",
+    "99 - Meta/Templates/📑PDF.md",
+    "99 - Meta/Goodnotes/Studium/Ideenboard.pdf",
+    "99 - Meta/Templates/▶️Dropdown.md",
+    "99 - Meta/Templates/H1 Überschrift.md",
+    "99 - Meta/Templates/H4 Überschrift.md",
+    "99 - Meta/Templates/H3 Überschrift.md",
+    "99 - Meta/Templates/H2 Überschrift.md",
     "99 - Meta/JavaScript/Templater/codeblock.js",
     "99 - Meta/JavaScript/Templater/Textdokument (neu).txt",
     "99 - Meta/JavaScript/Templater/Codeblock.md",
-    "99 - Meta/Templates/▶️Dropdown.md",
-    "99 - Meta/Templates/📅Table.md",
-    "99 - Meta/Templates/🛑Callout.md",
-    "03 - Notes/How to make easy pizza dough.md",
     "99 - Meta/Templates/notes/Fleeting.md",
     "99 - Meta/JavaScript/Dataview/views/notes.js",
-    "99 - Meta/JavaScript/Dataview/views/tasks.js",
-    "99 - Meta/JavaScript/Dataview/views/progress-bar.js",
-    "99 - Meta/JavaScript/Dataview/views/projects.js",
-    "99 - Meta/JavaScript/Dataview/views/goals.js",
-    "99 - Meta/JavaScript/Dataview/views/areas.js",
-    "99 - Meta/JavaScript/Dataview/views/links.js",
-    "99 - Meta/JavaScript/Dataview/views/button.js",
     "99 - Meta/Templates/plan/Yearly.md",
-    "99 - Meta/Templates/plan/Weekly.md",
-    "99 - Meta/Templates/plan/Quarterly.md",
-    "99 - Meta/Templates/plan/Monthly.md",
-    "99 - Meta/Templates/plan/Goal.md",
-    "99 - Meta/Templates/plan/Daily.md",
-    "99 - Meta/Templates/para/Resource.md",
-    "99 - Meta/Templates/para/Area.md",
-    "99 - Meta/Templates/para/Project.md",
     "Unbenannt.canvas",
-    "00 - Para/03 - Ressources/Cooking.md",
-    "00 - Para/01 - Projects/Travel Budgeting.md",
-    "assets/templates/para/Project.md",
-    "1-projects/Unbenannt.md",
-    "assets/templates/utility/🛑Callout.md",
-    "assets/templates/utility/📅Table.md",
-    "assets/templates/plan/Daily.md",
-    "02 - Plan/1-daily/2024-08-11.md",
     "assets/CleanShot 2024-01-27 at 19.57.34@2x.jpg",
     "assets/IMG_7296.png",
     "assets/IMG_7188.jpeg",
     "assets/Pasted image 20231229152524.png",
-    "assets/Pasted image 20231229152506.png",
-    "assets/Pasted image 20231229152448.png",
-    "assets/Pasted image 20231229151716.png",
-    "assets/wheel-of-life.png",
-    "assets/CleanShot 2023-12-22 at 16.23.54.jpg",
-    "assets/CleanShot 2023-12-22 at 16.24.25.jpg",
     "Dashboard.canvas",
     "Untitled.canvas"
   ]

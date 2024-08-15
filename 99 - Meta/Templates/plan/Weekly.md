@@ -1,16 +1,15 @@
 ---
-created: '2024-08-11'
+created: '<% tp.file.creation_date("YYYY-MM-DD") %>'
 modified: 2024-05-30 - 11:04 am
 ---
 
-⏮️ [[0-plan/5-yearly/Invalid date|Yearly]] > [[0-plan/4-quarterly/Invalid date|Quarterly]] > [[0-plan/3-monthly/Invalid date|Monthly]] ⏭️
+⏮️ <% tp.user.weeklyZoomOutRibbon(tp.file.title) %> ⏭️
 
-⬅️ [[Invalid date|Week Invalid date]] < Week Invalid date > [[Invalid date|Week Invalid date]] ➡️
+⬅️ <% tp.user.weeklyNextPrevRibbon(tp.file.title) %> ➡️
 
 ---
 
-**Week Invalid date, Invalid date**
-**(Invalid date ~ Invalid date)**
+<% tp.user.weeklyDateInfo(tp.file.title) %>
 
 ---
 
@@ -33,13 +32,13 @@ modified: 2024-05-30 - 11:04 am
 > [!MISSING] Remaining & Overdue Tasks (This Week) 🧨
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/tasks", {type: "remaining", onDate: "🛑Callout " , scope: "all"})
+> await dv.view("JavaScript/Dataview/views/tasks", {type: "remaining", onDate: "<% tp.file.title %> " , scope: "all"})
 > ```
 
 > [!EXAMPLE] Clean Unplanned Actions 📨
 > 
 > ```dataviewjs
-> dv.view("scripts/dataview/views/tasks", {type: "unplanned", onDate: "🛑Callout ", scope: "all"})
+> dv.view("JavaScript/Dataview/views/tasks", {type: "unplanned", onDate: "<% tp.file.title %> ", scope: "all"})
 > ``` 
 
 ## Process
@@ -50,7 +49,7 @@ modified: 2024-05-30 - 11:04 am
 > [!SUMMARY] Sort Captured Notes 📝
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/notes", {type: "unsorted"})
+> await dv.view("JavaScript/Dataview/views/notes", {type: "unsorted"})
 > ```
 
 ---
@@ -63,19 +62,19 @@ modified: 2024-05-30 - 11:04 am
 > [!SUCCESS] Goals Done (This Week) 🎯
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/goals", {type: "completed", onDate: "🛑Callout "})
+> await dv.view("JavaScript/Dataview/views/goals", {type: "completed", onDate: "<% tp.file.title %> "})
 > ```
 
 > [!SUCCESS] Projects Done (This Week) 💼
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/projects", {type: "completed", onDate: "🛑Callout "})
+> await dv.view("JavaScript/Dataview/views/projects", {type: "completed", onDate: "<% tp.file.title %> "})
 > ```
 
 > [!SUCCESS]- Tasks Done (This Week) ✅
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/tasks", {type: "completed", onDate: "🛑Callout ", scope: "all"})
+> await dv.view("JavaScript/Dataview/views/tasks", {type: "completed", onDate: "<% tp.file.title %> ", scope: "all"})
 > ```
 
 ## 1. What More Did I Accomplish This Week?
@@ -111,11 +110,11 @@ modified: 2024-05-30 - 11:04 am
 > [!TIP] Ongoing Goals 📅
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/goals", {type: "ongoing", onDate: "🛑Callout "})
+> await dv.view("JavaScript/Dataview/views/goals", {type: "ongoing", onDate: "<% tp.file.title %> "})
 > ```
 
 ```dataviewjs
-await dv.view("scripts/dataview/views/button", {command: "add-goal"})
+await dv.view("JavaScript/Dataview/views/button", {command: "add-goal"})
 ```
 
 ## Projects
@@ -123,11 +122,11 @@ await dv.view("scripts/dataview/views/button", {command: "add-goal"})
 > [!TIP] Ongoing Projects 📅
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/projects", {type: "ongoing"})
+> await dv.view("JavaScript/Dataview/views/projects", {type: "ongoing"})
 > ```
 
 ```dataviewjs
-await dv.view("scripts/dataview/views/button", {command: "add-project"})
+await dv.view("JavaScript/Dataview/views/button", {command: "add-project"})
 ```
 
 ## Tasks
@@ -135,15 +134,15 @@ await dv.view("scripts/dataview/views/button", {command: "add-project"})
 > [!DANGER] Due Tasks (Next Week) ✔️
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/tasks", {type: "due", onDate: "Invalid date " , scope: "all"})
+> await dv.view("JavaScript/Dataview/views/tasks", {type: "due", onDate: "<% tp.user.dateUtils({date: tp.file.title, action: "get-next-week"}) %> " , scope: "all"})
 > ```
 
 > [!TODO] Ongoing Tasks 🏃‍♂️
 > 
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/tasks", {type: "ongoing", onDate: "🛑Callout ", scope: "all"})
+> await dv.view("JavaScript/Dataview/views/tasks", {type: "ongoing", onDate: "<% tp.file.title %> ", scope: "all"})
 > ```
 
 ```dataviewjs
-await dv.view("scripts/dataview/views/button", {command: "add-task"})
+await dv.view("JavaScript/Dataview/views/button", {command: "add-task"})
 ```

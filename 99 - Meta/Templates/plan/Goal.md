@@ -16,7 +16,7 @@ modified: 2024-03-26 - 10:28 am
 > [!QUESTION]+ Progress 🚧
 >
 > ```dataviewjs
-> await dv.view('scripts/dataview/views/progress-bar', {type: "linked-completed-projects"})
+> await dv.view('JavaScript/Dataview/views/progress-bar', {type: "linked-completed-projects"})
 > ```
 
 ---
@@ -26,9 +26,9 @@ modified: 2024-03-26 - 10:28 am
 > [!NOTE] Links 🔗
 >
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/links", {type:"projects"})
+> await dv.view("JavaScript/Dataview/views/links", {type:"projects"})
 > ```
 
 ```dataviewjs
-await dv.view("scripts/dataview/views/button", {command: "add-project", attachedPagePath: "99 - Meta/Templates/utility/🛑Callout.md" })
+await dv.view("JavaScript/Dataview/views/button", {command: "add-project", attachedPagePath: "<% tp.file.path(true) %>" })
 ```

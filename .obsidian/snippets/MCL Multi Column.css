@@ -351,6 +351,18 @@ body{
 	}
 
 
+	div[class*="wide-"].markdown-source-view.mod-cm6.is-readable-line-width .cm-embed-block:is(.cm-callout, .admonition-parent) > div:is([data-callout-metadata*="left"],[data-callout-metadata*="right"])[data-callout-metadata*="-25"].callout,
+	div:is([data-callout-metadata*="left"],[data-callout-metadata*="right"])[data-callout-metadata*="-25"].callout {width: 25%;}
+    div[class*="wide-"].markdown-source-view.mod-cm6.is-readable-line-width .cm-embed-block:is(.cm-callout, .admonition-parent) > div:is([data-callout-metadata*="left"],[data-callout-metadata*="right"])[data-callout-metadata*="-40"].callout,
+	div:is([data-callout-metadata*="left"],[data-callout-metadata*="right"])[data-callout-metadata*="-40"].callout {width: 40%}
+	div[class*="wide-"].markdown-source-view.mod-cm6.is-readable-line-width .cm-embed-block:is(.cm-callout, .admonition-parent) > div:is([data-callout-metadata*="left"],[data-callout-metadata*="right"])[data-callout-metadata*="-50"].callout,
+	div:is([data-callout-metadata*="left"],[data-callout-metadata*="right"])[data-callout-metadata*="-50"].callout {width: 50%}
+    div[class*="wide-"].markdown-source-view.mod-cm6.is-readable-line-width .cm-embed-block:is(.cm-callout, .admonition-parent) > div:is([data-callout-metadata*="left"],[data-callout-metadata*="right"])[data-callout-metadata*="-60"].callout,
+	div:is([data-callout-metadata*="left"],[data-callout-metadata*="right"])[data-callout-metadata*="-60"].callout {width: 60%}
+	div[class*="wide-"].markdown-source-view.mod-cm6.is-readable-line-width .cm-embed-block:is(.cm-callout, .admonition-parent) > div:is([data-callout-metadata*="left"],[data-callout-metadata*="right"])[data-callout-metadata*="-75"].callout,
+	div:is([data-callout-metadata*="left"],[data-callout-metadata*="right"])[data-callout-metadata*="-75"].callout {width: 75%}
+
+
 	/* -- Special Adjustment for Plugins / Markdown Elements -- */
 
 		/* Option for Caption */
@@ -412,7 +424,6 @@ body{
 		@media (min-width: 750px){
 			body[class*="minimal-tab-title"] .markdown-source-view.mod-cm6.is-readable-line-width .cm-embed-block.cm-callout > div[data-callout-metadata$="large"].callout { width: var(--float-large-width); margin-left: 0 !important; }
 		}
-
 
 /* === List Column ===*/
 	/* supported for (1) css :has(), (2) yaml cssclass, (3) CT plugin, and (4) MA plugin

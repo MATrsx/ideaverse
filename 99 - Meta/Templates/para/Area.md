@@ -17,13 +17,13 @@ modified: 2024-05-12 - 05:24 pm
 > [!TODO] Remaining Tasks ✔️
 >
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/tasks", {type: "remaining"})
+> await dv.view("JavaScript/Dataview/views/tasks", {type: "remaining"})
 > ```
 
 > [!SUCCESS]- Tasks Done ✅
 >
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/tasks", {type: "completed"})
+> await dv.view("JavaScript/Dataview/views/tasks", {type: "completed"})
 > ```
 
 > [!EXAMPLE] All Tasks 📝 <js-todo-callout></js-todo-callout>
@@ -35,19 +35,19 @@ modified: 2024-05-12 - 05:24 pm
 > [!NOTE] Linked Goals 🎯
 >
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/links", {type:"goals"})
+> await dv.view("JavaScript/Dataview/views/links", {type:"goals"})
 > ```
 
 ```dataviewjs
-await dv.view("scripts/dataview/views/button", {command: "add-goal", attachedPagePath: "99 - Meta/Templates/utility/🛑Callout.md" })
+await dv.view("JavaScript/Dataview/views/button", {command: "add-goal", attachedPagePath: "<% tp.file.path(true) %>" })
 ```
 
 > [!NOTE] Linked Notes 🔗
 >
 > ```dataviewjs
-> await dv.view("scripts/dataview/views/links", {type:"notes"})
+> await dv.view("JavaScript/Dataview/views/links", {type:"notes"})
 > ```
 
 ```dataviewjs
-await dv.view("scripts/dataview/views/button", {command: "add-note", attachedPagePath: "99 - Meta/Templates/utility/🛑Callout.md" })
+await dv.view("JavaScript/Dataview/views/button", {command: "add-note", attachedPagePath: "<% tp.file.path(true) %>" })
 ```

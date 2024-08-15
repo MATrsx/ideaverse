@@ -1,0 +1,47 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "99 - Meta/Templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": true,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "99 - Meta/JavaScript/Templater",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "02 - Plan/1-daily",
+      "template": "99 - Meta/Templates/plan/Daily.md"
+    },
+    {
+      "folder": "02 - Plan//2-weekly",
+      "template": "99 - Meta/Templates/plan/Weekly.md"
+    },
+    {
+      "folder": "02 - Plan//3-monthly",
+      "template": "99 - Meta/Templates/plan/Monthly.md"
+    },
+    {
+      "folder": "02 - Plan/4-quarterly",
+      "template": "99 - Meta/Templates/plan/Quarterly.md"
+    },
+    {
+      "folder": "02 - Plan/5-yearly",
+      "template": "99 - Meta/Templates/plan/Yearly.md"
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "enable_ribbon_icon": true
+}
