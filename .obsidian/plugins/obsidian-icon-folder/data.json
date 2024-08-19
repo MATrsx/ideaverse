@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "TaH1",
-      "BoTable",
-      "💰",
-      "⛵",
-      "🇫🇮"
+      "LiCode2",
+      "OcFile16",
+      "FoFile",
+      "TaMap2",
+      "TaH1"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -21,9 +21,9 @@
       "left": 0
     },
     "iconInTabsEnabled": true,
-    "iconInTitleEnabled": true,
+    "iconInTitleEnabled": false,
     "iconsBackgroundCheckEnabled": false,
-    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterEnabled": true,
     "iconsInNotesEnabled": true,
     "iconIdentifier": ":",
     "iconsInLinksEnabled": true,
@@ -76,5 +76,14 @@
   "02 - Plan/0-goals/Travel to Finland in 2024.md": "🇫🇮",
   "00 - Para/01 - Projects/Travel Budgeting.md": "💰",
   "00 - Para/02 - Areas/Travel.md": "⛵",
-  "00 - Para/03 - Resources/Cooking.md": "🍳"
+  "00 - Para/03 - Resources/Cooking.md": "🍳",
+  "03 - Notes/01 - Ausbildung/Maps of Content/Diagramme & Darstellungen (MOC).md": "TaMap2",
+  "03 - Notes/How to make easy pizza dough.md": {
+    "iconName": "FoFile",
+    "iconColor": "#614f38"
+  },
+  "03 - Notes/Test Markdown Components.md": {
+    "iconName": "FoFile",
+    "iconColor": "#614f38"
+  }
 }

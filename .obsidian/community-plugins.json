@@ -1,5 +1,4 @@
 [
-  "oz-clear-unused-images",
   "cm-editor-syntax-highlight-obsidian",
   "omnisearch",
   "oz-image-plugin",
@@ -19,7 +18,6 @@
   "obsidian-global-hotkeys",
   "dataview",
   "obsidian-tasks-plugin",
-  "obsidian-focus-mode",
   "obsidian-hider",
   "cmdr",
   "obsidian-plugin-update-tracker",
@@ -38,8 +36,9 @@
   "code-styler",
   "markdown-attributes",
   "link-favicon",
-  "modalforms",
   "ink",
+  "obsidian-excalidraw-plugin",
   "slash-commander",
-  "obsidian-excalidraw-plugin"
+  "callout-manager",
+  "make-md"
 ]

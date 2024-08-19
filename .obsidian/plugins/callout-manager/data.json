@@ -1,0 +1,113 @@
+{
+  "callouts": {
+    "custom": [],
+    "settings": {
+      "summary": [
+        {
+          "changes": {
+            "icon": "lint-paste",
+            "color": "0, 176, 255"
+          }
+        }
+      ],
+      "info": [
+        {
+          "changes": {
+            "color": "68, 138, 255"
+          }
+        }
+      ],
+      "bug": [
+        {
+          "changes": {
+            "color": "245, 0, 87"
+          }
+        }
+      ],
+      "danger": [
+        {
+          "changes": {
+            "color": "255, 23, 68"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "changes": {
+            "color": "100, 221, 23"
+          }
+        }
+      ],
+      "question": [
+        {
+          "changes": {
+            "color": "100, 221, 23"
+          }
+        }
+      ],
+      "success": [
+        {
+          "changes": {
+            "color": "0, 200, 83"
+          }
+        }
+      ],
+      "check": [
+        {
+          "changes": {
+            "color": "0, 200, 83"
+          }
+        }
+      ],
+      "done": [
+        {
+          "changes": {
+            "color": "0, 200, 83"
+          }
+        }
+      ],
+      "tip": [
+        {
+          "changes": {
+            "icon": "lucide-flame",
+            "color": "0, 191, 165"
+          }
+        }
+      ],
+      "hint": [
+        {
+          "changes": {
+            "color": "0, 191, 165"
+          }
+        }
+      ],
+      "example": [
+        {
+          "changes": {
+            "icon": "lucide-test-tube",
+            "color": "124, 77, 255"
+          }
+        }
+      ],
+      "quote": [
+        {
+          "changes": {
+            "color": "158, 158, 158"
+          }
+        }
+      ],
+      "important": [
+        {
+          "changes": {
+            "color": "255, 213, 0"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}

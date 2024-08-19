@@ -3,7 +3,7 @@
   "showDescriptions": false,
   "showSourcesForDuplicates": true,
   "debug": false,
-  "mainTrigger": "/",
+  "mainTrigger": "//",
   "extraTriggers": [],
   "useExtraTriggers": false,
   "triggerOnlyOnNewLine": true,

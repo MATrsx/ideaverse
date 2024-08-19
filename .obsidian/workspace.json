@@ -8,31 +8,45 @@
         "type": "tabs",
         "children": [
           {
+            "id": "02d105720bd33d2a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home - Ausbildung.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
             "id": "fe5fc58284cd7e8a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99 - Meta/Templates/🛑Callout.md",
+                "file": "03 - Notes/01 - Ausbildung/Maps of Content/Diagramme & Darstellungen (MOC).md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6812a8805f5ad4ab",
+            "id": "0a4b44d4a80f12d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Notes/Test Markdown Components.md",
+                "file": "03 - Notes/01 - Ausbildung/Struktogramm.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -77,12 +91,20 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "50572d1c4ee5b6b9",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 225.01103591918945
+    "width": 228
   },
   "right": {
     "id": "a101c82ccb5c8b84",
@@ -130,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "03 - Notes/Test Markdown Components.md",
+                "file": "03 - Notes/01 - Ausbildung/Struktogramm.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -165,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 - Notes/Test Markdown Components.md"
+                "file": "03 - Notes/01 - Ausbildung/Struktogramm.md"
               }
             }
           }
@@ -182,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03 - Notes/Test Markdown Components.md",
+                "file": "03 - Notes/01 - Ausbildung/Struktogramm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03 - Notes/Test Markdown Components.md",
+                "file": "03 - Notes/01 - Ausbildung/Struktogramm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,7 +248,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 348.5
+    "width": 298
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,66 +261,64 @@
       "omnisearch:Omnisearch": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false,
       "cmdr:Obsibrain: 🗓️ Open Daily": false,
       "templater-obsidian:Templater": false,
       "remotely-save:Remotely Save": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "modalforms:Edit forms": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "callout-manager:Insert Callout": false
     }
   },
-  "active": "6812a8805f5ad4ab",
+  "active": "d507b7a610f8db17",
   "lastOpenFiles": [
-    "99 - Meta/Templates/🛑Callout.md",
+    "03 - Notes/01 - Ausbildung/Programmablaufplan.md",
+    "03 - Notes/01 - Ausbildung/Struktogramm.md",
+    "99 - Meta/Files (Images, PDFs, Audio)/Struktogramm_Beispiel.png",
+    "99 - Meta/Files (Images, PDFs, Audio)/StruktErweitert.png",
+    "03 - Notes/01 - Ausbildung/Pseudocode.md",
+    "99 - Meta/Files (Images, PDFs, Audio)/Struktogramm_Verzweigung-ohne-Alternative.png",
+    "99 - Meta/Files (Images, PDFs, Audio)/Struktogramm_Verzweigung-ohne-Alternative.png.crdownload",
+    "99 - Meta/Files (Images, PDFs, Audio)/Struktogramm_Verzweigung-mit-Alternative.png",
+    "99 - Meta/Files (Images, PDFs, Audio)/Struktogramm_Verzweigung-mit-Alternative.png.crdownload",
+    "99 - Meta/Files (Images, PDFs, Audio)/Struktogramm_Wiederholung-Endlos.png",
+    "99 - Meta/Files (Images, PDFs, Audio)/Struktogramm_Wiederholung-Endlos.png.crdownload",
+    "99 - Meta/Files (Images, PDFs, Audio)/Struktogramm_Wiederholung-Zähler.png",
+    "99 - Meta/Files (Images, PDFs, Audio)/Struktogramm_Wiederholung-Zähler.png.crdownload",
+    "99 - Meta/Files (Images, PDFs, Audio)/Struktogramm_Wiederholung.png",
+    "99 - Meta/Files (Images, PDFs, Audio)/Struktogramm_Wiederholung.png.crdownload",
+    "99 - Meta/Files (Images, PDFs, Audio)/Struktogramm_Sequenz.png",
+    "99 - Meta/Files (Images, PDFs, Audio)/Struktogramm_Sequenz.png.crdownload",
+    "99 - Meta/Files (Images, PDFs, Audio)/Struktogramm_Anweisung.png",
+    "99 - Meta/Files (Images, PDFs, Audio)/Struktogramm_Anweisung.png.crdownload",
+    "99 - Meta/Files (Images, PDFs, Audio)/-img alt='' class='img-fluid' src='https---d1g9li960vagp7.cloudfront.net-wp-content-uploads-2022-11-Anweisung-1024x240.png' t.url",
+    "99 - Meta/Files (Images, PDFs, Audio)/Struktogramm_Verzweigung.jpg",
+    "99 - Meta/Files (Images, PDFs, Audio)/PDFs/AUSBILDUNG_Diagramme und Darstellungen.pdf",
+    "99 - Meta/Files (Images, PDFs, Audio)/PDFs/2023-06-28_HOF_Diagramme_und_Darstellungen.pdf",
+    "03 - Notes/01 - Ausbildung/Maps of Content/Diagramme & Darstellungen (MOC).md",
+    "99 - Meta/Templates/notes/Preload Classes.md",
+    "Home - Ausbildung.md",
     "03 - Notes/Test Markdown Components.md",
-    "99 - Meta/Templates/📅Table.md",
+    "01 - Studium/Home.md",
+    "00 - Para/02 - Areas/Ausbildung.md",
     "99 - Meta/Templates/📶Multi Column.md",
+    "99 - Meta/Templates/🛑Callout.md",
+    "00 - Para/02 - Areas/Travel.md",
+    "99 - Meta/Templates/📅Table.md",
     "99 - Meta/Templates/📛Inline Callout.md",
     "99 - Meta/Templates/🔗URL.md",
     "99 - Meta/Templates/📟Codeblock.md",
     "99 - Meta/Templates/🔛Card Row.md",
     "99 - Meta/Templates/🎞️Content Tab.md",
-    "01 - Studium/Home.md",
     "99 - Meta/Files (Images, PDFs, Audio)/Excalidraw/Test Markdown Components 2024-08-15 17.59.33.excalidraw.md",
-    "99 - Meta/Files (Images, PDFs, Audio)/Excalidraw",
-    "99 - Meta/Files (Images, PDFs, Audio)/Ink/Writing/2024.8.15 - 17.54pm.writing",
-    "99 - Meta/Files (Images, PDFs, Audio)/Ink/Writing",
-    "99 - Meta/Files (Images, PDFs, Audio)/Ink",
-    "99 - Meta/Files (Images, PDFs, Audio)/Mathematics.svg",
     "99 - Meta/Templates/🖼️Image.md",
     "00 - Para/01 - Projects/Syst.md",
     "03 - Notes/How to make easy pizza dough.md",
-    "99 - Meta/Files (Images, PDFs, Audio)/Computer Science.svg",
-    "99 - Meta/Files (Images, PDFs, Audio)/Test.svg.png",
-    "99 - Meta/Files (Images, PDFs, Audio)/Mathe.png",
-    "99 - Meta/Files (Images, PDFs, Audio)/Mathematics-amico.svg",
     "00 - Para/01 - Projects/Sport System.md",
     "00 - Para/01 - Projects/Travel Budgeting.md",
-    "99 - Meta/Files (Images, PDFs, Audio)/Mountain-Pixel-Art.jpg",
-    "update_svg_ids.py",
-    "Textdokument (neu).txt",
     "99 - Meta/Templates/Test Form.md",
-    "99 - Meta/Templates/📑PDF.md",
-    "99 - Meta/Goodnotes/Studium/Ideenboard.pdf",
-    "99 - Meta/Templates/▶️Dropdown.md",
-    "99 - Meta/Templates/H1 Überschrift.md",
-    "99 - Meta/Templates/H4 Überschrift.md",
-    "99 - Meta/Templates/H3 Überschrift.md",
-    "99 - Meta/Templates/H2 Überschrift.md",
-    "99 - Meta/JavaScript/Templater/codeblock.js",
-    "99 - Meta/JavaScript/Templater/Textdokument (neu).txt",
-    "99 - Meta/JavaScript/Templater/Codeblock.md",
-    "99 - Meta/Templates/notes/Fleeting.md",
-    "99 - Meta/JavaScript/Dataview/views/notes.js",
-    "99 - Meta/Templates/plan/Yearly.md",
     "Unbenannt.canvas",
-    "assets/CleanShot 2024-01-27 at 19.57.34@2x.jpg",
-    "assets/IMG_7296.png",
-    "assets/IMG_7188.jpeg",
-    "assets/Pasted image 20231229152524.png",
     "Dashboard.canvas",
     "Untitled.canvas"
   ]

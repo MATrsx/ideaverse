@@ -17,7 +17,7 @@ const types = {
 
 const numColumns = await tp.system.prompt("Wie viele Spalten sollen erstellt werden?");
 
-const type = await tp.system.suggester(Object.values(callouts), Object.keys(callouts), true, 'Select callout type.');
+const type = await tp.system.suggester(Object.values(types), Object.keys(types), true, 'Select callout type.');
 
 let header = `> [!multi-column|left-fixed]\n>\n`;
 

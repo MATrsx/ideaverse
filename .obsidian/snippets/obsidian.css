@@ -10,6 +10,32 @@ svg.svg-icon {
     stroke-width: var(--icon-stroke);
 }
 
+.code-styler-pre-parent {
+    margin-bottom: 0; 
+}
+
+/*================================================================\
+|Primary Theme Customizations                                      |
+\================================================================*/
+
+.callout-title {
+    justify-content: unset !important;
+}
+
+/*================================================================\
+|Make.md Settings for Obsidian CSS                                 |
+\================================================================*/
+.mk-path-icon button {
+    background: transparent;
+}
+
+
+
+
+/*================================================================\
+|Disable Overflow for Lines with floating images                   |
+\================================================================*/
+
 .markdown-source-view.mod-cm6.is-readable-line-width .cm-line {
     max-width: none;
 }
@@ -18,7 +44,47 @@ svg.svg-icon {
     overflow: hidden;
 }
 
+/*================================================================\
+|Custom Callout icon sizes for h1-h6                               |
+\================================================================*/
 
+.callout-title:has(div.callout-title-inner h1) .callout-fold svg,
+.callout-title:has(div.callout-title-inner h2) .callout-fold svg, 
+.callout-title:has(div.callout-title-inner h3) .callout-fold svg, 
+.callout-title:has(div.callout-title-inner h4) .callout-fold svg, 
+.callout-title:has(div.callout-title-inner h5) .callout-fold svg, 
+.callout-title:has(div.callout-title-inner h6) .callout-fold svg,  
+.callout-title:has(div.callout-title-inner h1) .callout-icon svg,
+.callout-title:has(div.callout-title-inner h2) .callout-icon svg,
+.callout-title:has(div.callout-title-inner h3) .callout-icon svg,
+.callout-title:has(div.callout-title-inner h4) .callout-icon svg,
+.callout-title:has(div.callout-title-inner h5) .callout-icon svg,
+.callout-title:has(div.callout-title-inner h6) .callout-icon svg {
+    width: 100% !important; 
+    height: 100% !important; 
+    max-height: 100% !important; 
+}
+
+
+.callout-title .callout-title-inner h1,
+.callout-title .callout-title-inner h2,
+.callout-title .callout-title-inner h3,
+.callout-title .callout-title-inner h4,
+.callout-title .callout-title-inner h5,
+.callout-title .callout-title-inner h6 {
+    margin: 0;
+}
+
+.callout-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/*================================================================\
+|Add support for images in blockquotes like column                |
+\================================================================*/
 
 .markdown-rendered blockquote:has(> ul > li) {
     background-color: transparent;
@@ -31,6 +97,9 @@ svg.svg-icon {
     padding-right: 10%;
 }
 
+/*================================================================\
+|Customize Callouts Floating                                       |
+\================================================================*/
 
 .html-tabs {
     border-color: var(--hr-color);
@@ -94,11 +163,24 @@ div[data-callout="multi-column"].callout blockquote ul > li > p > .image-embed.i
 
 .multi-select-pill-remove-button {
     cursor: pointer;
-    color: #fff;
+    color: #fff !important;
     padding-right: 0.3em;
     padding-top: 0.3em;
     padding-bottom: 0.3em;
     margin-inline-end: 0;
+    opacity: 1 !important;
+}
+
+.multi-select-pill-remove-button:hover {
+    color: var(--text-on-accent) !important;
+    background: var(--background-modifier-error-hover) !important;
+    opacity: 1;
+    padding-right: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 3px;
+    margin-right: 2.5px;
+    margin-bottom: 3px;
 }
 
 /* cssclasses */
@@ -111,7 +193,7 @@ div[data-property-key="cssclasses"] > .metadata-property-value > .multi-select-c
     background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="rgb(218, 154, 27)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-wand-2"><path d="m21.64 3.64-1.28-1.28a1.21 1.21 0 0 0-1.72 0L2.36 18.64a1.21 1.21 0 0 0 0 1.72l1.28 1.28a1.2 1.2 0 0 0 1.72 0L21.64 5.36a1.2 1.2 0 0 0 0-1.72Z"></path><path d="m14 7 3 3"></path><path d="M5 6v4"></path><path d="M19 14v4"></path><path d="M10 2v2"></path><path d="M7 8H3"></path><path d="M21 16h-4"></path><path d="M11 3H9"></path></svg>') no-repeat center center;
 }
 div[data-property-key="cssclasses"] > .metadata-property-value > .multi-select-container > .multi-select-pill {
-    color: var(--alternating-color-1);
+    color: hsla(40, 78%, 48%, 1);
     background-color: hsl(49, 48%, 21%);
     display: inline-flex;
     margin: 0;
@@ -135,18 +217,18 @@ div[data-property-key="tags"] > .metadata-property-value > .multi-select-contain
     padding: 0.3em;
     width: 14px; 
     height: 14px;
-    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="rgb(255,92,187)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-tag"><path d="M12 2H2v10l9.29 9.29c.94.94 2.48.94 3.42 0l6.58-6.58c.94-.94.94-2.48 0-3.42L12 2Z"></path><path d="M7 7h.01"></path></svg>') no-repeat center center;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="rgb(27, 164, 218)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-tag"><path d="M12 2H2v10l9.29 9.29c.94.94 2.48.94 3.42 0l6.58-6.58c.94-.94.94-2.48 0-3.42L12 2Z"></path><path d="M7 7h.01"></path></svg>') no-repeat center center;
 }
 div[data-property-key="tags"] > .metadata-property-value > .multi-select-container > .multi-select-pill {
-    color: hsl(325deg 100% 68.14%);
-    background-color: var(--color-pink-base);
+    color: hsla(197, 78%, 48%, 1);
+    background-color: hsl(211, 48%, 21%);
     display: inline-flex;
     margin: 0;
     padding: 0;
     vertical-align: middle;
-    border-radius: var(--inline-badge-border-radius);
+    border-radius: 4px;
     font-weight: 500;
-    border: var(--inline-badge-border);
+    border: 1px solid transparent;
     cursor: default;
 }
 div[data-property-key="tags"] > .metadata-property-value > .multi-select-container > .multi-select-pill > .multi-select-pill-content {

@@ -431,7 +431,7 @@
           "alternativeHighlights": {}
         },
         "inline": {
-          "backgroundColour": "--code-background",
+          "backgroundColour": "#352D26",
           "textColour": "#D7C0A3",
           "activeTextColour": "#D7C0A3",
           "titleTextColour": "#D7C0A3"

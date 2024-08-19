@@ -128,7 +128,7 @@ body{
 		- .cm-contentContainer, .cm-contentContainer > .cm-content, .cm-contentContainer > .cm-content > div
 		- .embedded-backlinks, .embedded-backlinks > div */
 	:is(body[class*="wide-"]:not(.max-view-enabled), div[class*="wide-"].markdown-source-view.mod-cm6) :is(.cm-contentContainer.cm-contentContainer, .cm-contentContainer.cm-contentContainer > .cm-content, .cm-contentContainer.cm-contentContainer > .cm-content > div, .embedded-backlinks, .embedded-backlinks > div)
-		{ max-width: 99%; width: auto;}
+		{ max-width: 100%; width: auto;}
 
 	/* Special adjustment - for Minimal
 		- it has table also set with max-width. but table require separate line because we don't want width: 100% as that would stretch the table
@@ -191,7 +191,7 @@ body{
 	/* set normal width to `.cm-content > div` and `.embedded-links` only (override the WPEV) */
 	:is(body[class*="wide-"]:not(.max-view-enabled) .markdown-source-view.mod-cm6:not(.wide-page),
 	div[class*="wide-"].markdown-source-view.mod-cm6:not(.wide-page)) :is(.cm-contentContainer.cm-contentContainer > .cm-content > div, .cm-sizer > .embedded-backlinks)
-		{ max-width: var(--normal-max-width); margin-inline: auto !important; } /* important for margin needed because app.css:1473 use it for .cm-contentContainer > .cm-content > * */
+		{ margin-inline: auto !important; } /* important for margin needed because app.css:1473 use it for .cm-contentContainer > .cm-content > * */
 
 	div[class*="wide-"].markdown-source-view.mod-cm6:not(.wide-backlinks) .cm-sizer > .embedded-backlinks { width: var(--normal-max-width) !important; }
 
@@ -230,6 +230,7 @@ body{
 	:is(body[class*="wide-"] .markdown-preview-view:not(.wide-page), div[class*="wide-"].markdown-preview-view:not(.wide-page)) .markdown-preview-sizer.markdown-preview-sizer > div
 		{ max-width: var(--normal-max-width); margin-inline: auto; } /* important is for Atom theme */
 	/* set the related blocks to wide width */
+    :is(body.wide-dataview-global, div[class*="-codeblock"].markdown-preview-view) .markdown-preview-sizer.markdown-preview-sizer > div:is(.el-pre.code-styler-pre-parent),
 	:is(body.wide-dataview-global, div[class*="-dataview"].markdown-preview-view) .markdown-preview-sizer.markdown-preview-sizer > div:is(.el-lang-dataview),
 	:is(body.wide-table-global, div[class*="-table"].markdown-preview-view) .markdown-preview-sizer.markdown-preview-sizer > div:is(.el-table),
 	:is(body.wide-callout-global, div[class*="-callout"].markdown-preview-view) .markdown-preview-sizer.markdown-preview-sizer > div[data-callout],

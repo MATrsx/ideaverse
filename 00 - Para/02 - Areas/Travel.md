@@ -1,6 +1,8 @@
 ---
 created: '2024-04-01'
 modified: 2024-06-15 - 03:13 pm
+Erstellt am: Sonntag, 📅11. August 2024, 🕐16:38:45
+Geändert am: Freitag, 📅16. August 2024, 🕐14:14:00
 ---
 
 ---

@@ -1,7 +1,0 @@
-{
-  "deleteOption": ".trash",
-  "logsModal": true,
-  "excludedFolders": "scripts",
-  "ribbonIcon": false,
-  "excludeSubfolders": true
-}
